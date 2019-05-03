@@ -8,7 +8,7 @@ var path = require("path");
 var public = path.join(__dirname, "../public");
 var schedule = require('node-schedule');
 const {initEmailSentiment} = require('../Methods/tsvMethods');
-var AuthController = require('../middleware/auth');
+var authentication = require('../routes/authentication');
 
 module.exports = function (app) {
     app.use(cors());
@@ -22,7 +22,7 @@ module.exports = function (app) {
     // });
 
     app.use("/", express.static(public));
-    app.use('/api/auth',AuthController );
+    app.use('/api/auth',authentication );
     app.use('/api/metadata', metadata);
     app.use('/api/dashboard', dashboard);   
     app.use('/api/enterceptorapi', enterceptorapi);

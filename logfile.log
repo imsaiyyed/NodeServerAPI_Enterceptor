@@ -18,3 +18,72 @@ level":"info","message":"Connected to database successfully.","timestamp":"2019-
 {"level":"info","message":"Connected to database successfully.","timestamp":"2019-05-02T09:19:50.137Z"}
 {"level":"info","message":"Server started at port 5000.","timestamp":"2019-05-02T13:09:01.793Z"}
 {"level":"info","message":"Connected to database successfully.","timestamp":"2019-05-02T13:09:01.835Z"}
+{"level":"info","message":"Server started at port 5000.","timestamp":"2019-05-03T05:37:42.645Z"}
+{"level":"info","message":"Connected to database successfully.","timestamp":"2019-05-03T05:37:42.691Z"}
+{"level":"info","message":"Server started at port 5000.","timestamp":"2019-05-03T05:40:11.723Z"}
+{"level":"info","message":"Connected to database successfully.","timestamp":"2019-05-03T05:40:11.776Z"}
+{"level":"error","message":"Internal server error poolPromise is not defined","timestamp":"2019-05-03T05:41:13.807Z"}
+{"level":"info","message":"Server started at port 5000.","timestamp":"2019-05-03T05:47:06.420Z"}
+{"level":"info","message":"Connected to database successfully.","timestamp":"2019-05-03T05:47:06.461Z"}
+{"level":"error","message":"Internal server error An expression of non-boolean type specified in a context where a condition is expected, near 'isActive'.","timestamp":"2019-05-03T05:47:08.985Z"}
+{"level":"info","message":"Server started at port 5000.","timestamp":"2019-05-03T05:47:29.508Z"}
+{"level":"info","message":"Connected to database successfully.","timestamp":"2019-05-03T05:47:29.572Z"}
+{"level":"error","message":"Internal server error Invalid column name 'Eternus'.","timestamp":"2019-05-03T05:47:33.738Z"}
+{"level":"info","message":"Server started at port 5000.","timestamp":"2019-05-03T05:47:45.988Z"}
+{"level":"info","message":"Connected to database successfully.","timestamp":"2019-05-03T05:47:46.044Z"}
+{"level":"info","message":"Server started at port 5000.","timestamp":"2019-05-03T05:52:31.885Z"}
+{"level":"info","message":"Connected to database successfully.","timestamp":"2019-05-03T05:52:31.937Z"}
+{"level":"info","message":"Server started at port 5000.","timestamp":"2019-05-03T05:52:49.326Z"}
+{"level":"info","message":"Connected to database successfully.","timestamp":"2019-05-03T05:52:49.369Z"}
+{"level":"info","message":"Server started at port 5000.","timestamp":"2019-05-03T05:59:30.234Z"}
+{"level":"info","message":"Connected to database successfully.","timestamp":"2019-05-03T05:59:30.297Z"}
+{"level":"info","message":"Server started at port 5000.","timestamp":"2019-05-03T06:09:12.319Z"}
+{"level":"info","message":"Connected to database successfully.","timestamp":"2019-05-03T06:09:12.388Z"}
+{"level":"info","message":"Server started at port 5000.","timestamp":"2019-05-03T06:10:27.196Z"}
+{"level":"info","message":"Connected to database successfully.","timestamp":"2019-05-03T06:10:27.243Z"}
+{"level":"info","message":"Server started at port 5000.","timestamp":"2019-05-03T06:10:45.348Z"}
+{"level":"info","message":"Connected to database successfully.","timestamp":"2019-05-03T06:10:45.396Z"}
+{"level":"info","message":"Server started at port 5000.","timestamp":"2019-05-03T06:14:46.118Z"}
+{"level":"info","message":"Connected to database successfully.","timestamp":"2019-05-03T06:14:46.167Z"}
+{"level":"info","message":"Server started at port 5000.","timestamp":"2019-05-03T06:15:09.665Z"}
+{"level":"info","message":"Connected to database successfully.","timestamp":"2019-05-03T06:15:09.726Z"}
+{"level":"info","message":"Server started at port 5000.","timestamp":"2019-05-03T06:16:10.869Z"}
+{"level":"info","message":"Connected to database successfully.","timestamp":"2019-05-03T06:16:10.914Z"}
+{"level":"info","message":"Server started at port 5000.","timestamp":"2019-05-03T06:18:31.875Z"}
+{"level":"info","message":"Connected to database successfully.","timestamp":"2019-05-03T06:18:31.917Z"}
+{"level":"error","message":"Internal server error Invalid status code: undefined","timestamp":"2019-05-03T06:18:37.259Z"}
+{"level":"info","message":"Server started at port 5000.","timestamp":"2019-05-03T06:19:40.375Z"}
+{"level":"info","message":"Connected to database successfully.","timestamp":"2019-05-03T06:19:40.420Z"}
+{"level":"info","message":"Server started at port 5000.","timestamp":"2019-05-03T06:25:58.109Z"}
+{"level":"info","message":"Connected to database successfully.","timestamp":"2019-05-03T06:25:58.176Z"}
+{"level":"info","message":"Server started at port 5000.","timestamp":"2019-05-03T06:39:34.189Z"}
+{"level":"info","message":"Connected to database successfully.","timestamp":"2019-05-03T06:39:34.236Z"}
+{"level":"error","message":"Internal server error Invalid column name 'true'.","timestamp":"2019-05-03T06:41:53.091Z"}
+{"level":"error","message":"Internal server error Invalid column name 'undefined'.","timestamp":"2019-05-03T06:43:19.370Z"}
+{"level":"info","message":"Server started at port 5000.","timestamp":"2019-05-03T06:44:17.070Z"}
+{"level":"info","message":"Connected to database successfully.","timestamp":"2019-05-03T06:44:17.117Z"}
+{"level":"error","message":"Internal server error Invalid column name 'undefined'.","timestamp":"2019-05-03T06:44:18.680Z"}
+{"level":"info","message":"Server started at port 5000.","timestamp":"2019-05-03T06:46:52.034Z"}
+{"level":"info","message":"Connected to database successfully.","timestamp":"2019-05-03T06:46:52.107Z"}
+{"level":"error","message":"Internal server error Invalid column name 'undefined'.","timestamp":"2019-05-03T06:46:57.637Z"}
+{"level":"info","message":"Server started at port 5000.","timestamp":"2019-05-03T06:48:01.363Z"}
+{"level":"info","message":"Connected to database successfully.","timestamp":"2019-05-03T06:48:01.427Z"}
+{"level":"error","message":"Internal server error Invalid column name 'undefined'.","timestamp":"2019-05-03T06:48:12.912Z"}
+{"level":"info","message":"Server started at port 5000.","timestamp":"2019-05-03T06:48:48.163Z"}
+{"level":"info","message":"Connected to database successfully.","timestamp":"2019-05-03T06:48:48.224Z"}
+{"level":"error","message":"Internal server error Invalid column name 'undefined'.","timestamp":"2019-05-03T06:48:57.567Z"}
+{"level":"info","message":"Server started at port 5000.","timestamp":"2019-05-03T06:49:44.482Z"}
+{"level":"info","message":"Connected to database successfully.","timestamp":"2019-05-03T06:49:44.538Z"}
+{"level":"info","message":"Server started at port 5000.","timestamp":"2019-05-03T06:50:32.677Z"}
+{"level":"info","message":"Connected to database successfully.","timestamp":"2019-05-03T06:50:32.736Z"}
+{"level":"info","message":"Server started at port 5000.","timestamp":"2019-05-03T06:50:46.482Z"}
+{"level":"info","message":"Connected to database successfully.","timestamp":"2019-05-03T06:50:46.549Z"}
+{"level":"info","message":"Server started at port 5000.","timestamp":"2019-05-03T06:51:15.270Z"}
+{"level":"info","message":"Connected to database successfully.","timestamp":"2019-05-03T06:51:15.325Z"}
+{"level":"error","message":"Internal server error Invalid column name 'true'.","timestamp":"2019-05-03T06:51:19.244Z"}
+{"level":"info","message":"Server started at port 5000.","timestamp":"2019-05-03T09:48:16.369Z"}
+{"level":"info","message":"Connected to database successfully.","timestamp":"2019-05-03T09:48:16.422Z"}
+{"level":"info","message":"Server started at port 5000.","timestamp":"2019-05-03T10:10:04.329Z"}
+{"level":"info","message":"Connected to database successfully.","timestamp":"2019-05-03T10:10:04.377Z"}
+{"level":"info","message":"Server started at port 5000.","timestamp":"2019-05-03T11:49:25.807Z"}
+{"level":"info","message":"Connected to database successfully.","timestamp":"2019-05-03T11:49:25.859Z"}
