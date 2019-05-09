@@ -51,7 +51,7 @@ router.put("/account",VerifyToken, async (req, res) =>{
 });
 
 router.delete("/account", VerifyToken,async (req, res) =>{ 
-   var query = "UPDATE [account] SET IsActive= 0  WHERE AccountId= " + req.query.AccountId;
+   var query = "UPDATE [account] SET IsActive= 0  WHERE AccountId= " + req.body.AccountId;
    const pool = await poolPromise;
     const result = await pool.request().query(query);
      res.status(201).send('success');  
@@ -103,14 +103,14 @@ router.put("/clients",VerifyToken, async (req, res) =>{
                 "[AllowMonitoring]= \'" + req.body.AllowMonitoring  +  "\'," +
                 "[UserId]=" + req.UserId + ","+
                 "[IsActive]="+ req.body.IsActive +
-                " WHERE Id= " + req.query.Id;
+                " WHERE Id= " + req.body.Id;
                const pool = await poolPromise;
     const result = await pool.request().query(query);
      res.status(201).send('success');     
 });
 
 router.delete("/clients",VerifyToken, async (req, res) =>{ 
-   var query = "UPDATE [Client] SET IsActive= 0  WHERE Id= " + req.query.Id;
+   var query = "UPDATE [Client] SET IsActive= 0  WHERE Id= " + req.body.Id;
    const pool = await poolPromise;
     const result = await pool.request().query(query);
     res.status(201).send('success');  
@@ -249,7 +249,7 @@ router.put("/ProjectAccountMap",VerifyToken, async (req, res) =>{
 });
 
 router.delete("/ProjectAccountMap", VerifyToken,async (req, res) =>{ 
-   var query = "UPDATE [ProjectAccountMap] SET IsActive= 0  WHERE  Id= " + req.query.Id;
+   var query = "UPDATE [ProjectAccountMap] SET IsActive= 0  WHERE  Id= " + req.body.Id;
    const pool = await poolPromise;
     const result = await pool.request().query(query);
      res.status(201).send('success');     
@@ -298,7 +298,7 @@ router.put("/ProjectClientMap",VerifyToken, async (req, res) =>{
 });
 
 router.delete("/ProjectClientMap",VerifyToken, async (req, res) =>{ 
-   var query = "UPDATE [ProjectClientMap] SET IsActive= 0  WHERE  Id= " + req.query.Id;
+   var query = "UPDATE [ProjectClientMap] SET IsActive= 0  WHERE  Id= " + req.body.Id;
    const pool = await poolPromise;
     const result = await pool.request().query(query);
      res.status(201).send('success');     
@@ -348,7 +348,7 @@ router.put("/ProjectEmployeeMap", VerifyToken,async (req, res) =>{
 });
 
 router.delete("/ProjectEmployeeMap", VerifyToken,async (req, res) =>{ 
-   var query = "UPDATE [ProjectEmployeeMap] SET IsActive= 0  WHERE  Id= " + req.query.Id;
+   var query = "UPDATE [ProjectEmployeeMap] SET IsActive= 0  WHERE  Id= " + req.body.Id;
    const pool = await poolPromise;
     const result = await pool.request().query(query);
      res.status(201).send('success');     
@@ -408,7 +408,7 @@ router.put("/UserChannels",VerifyToken, async (req, res) =>{
 });
 
 router.delete("/UserChannels", VerifyToken,async (req, res) =>{ 
-   var query = "UPDATE [UserChannels] SET IsActive= 0  WHERE  Id= " + req.query.Id;
+   var query = "UPDATE [UserChannels] SET IsActive= 0  WHERE  Id= " + req.body.Id;
    const pool = await poolPromise;
     const result = await pool.request().query(query);
      res.status(201).send('success');     
@@ -450,7 +450,7 @@ router.put("/ChannelConfiguration",VerifyToken, async (req, res) =>{
 });
 
 router.delete("/ChannelConfiguration",VerifyToken, async (req, res) =>{ 
-   var query = "delete from [ChannelConfiguration]  WHERE  Id= " + req.query.Id   ;
+   var query = "delete from [ChannelConfiguration]  WHERE  Id= " + req.body.Id   ;
    const pool = await poolPromise;
     const result = await pool.request().query(query);
      res.status(201).send('success');     
@@ -504,12 +504,36 @@ router.put("/ChannelCredentials", VerifyToken,async (req, res) =>{
 });
 
 router.delete("/ChannelCredentials",VerifyToken, async (req, res) =>{ 
-   var query = "delete from [ChannelCredentials]  WHERE  Id= " + req.query.Id   ;
+   var query = "delete from [ChannelCredentials]  WHERE  Id= " + req.body.Id   ;
    const pool = await poolPromise;
     const result = await pool.request().query(query);
      res.status(201).send('success');     
 });
 
 
+
+
+// Sentiment data for dashboard
+router.get("/Sentiments",VerifyToken, async (req, res) => {
+  var query = "SELECT TOP 5 Accountname ,Sentiment ,COUNT(*)as Value "+
+  "FROM [Enterceptor].[dbo].[EmailSentimentData]  "+
+  "GROUP BY sentiment , accountname "+
+  "HAVING Sentiment = '"+  req.query.Sentiment+"' ORDER BY  Accountname ";    		  
+  const pool = await poolPromise;
+  const result = await pool.request().query(query);
+  res.send(result.recordset);
+});
+
+router.get("/SentimentTrend",VerifyToken, async (req, res) => {
+  var query = "SELECT  DatePart(month, localtimestamp) as Month,avg( Sentimentscore ) as AverageSentiment  FROM [Enterceptor].[dbo].[EmailSentimentData]  group by datePart(month, localtimestamp)  order by datePart(month, localtimestamp)";
+		  
+  const pool = await poolPromise;
+  const result = await pool.request().query(query);
+  res.send(result.recordset);
+});
+
+
+// SELECT DatePart(week, localtimestamp) as Week,  month(localtimestamp) as Month, Sentimentscore FROM [Enterceptor].[dbo].[EmailSentimentData]
+// order by DatePart(week, localtimestamp)
 
 module.exports = router;

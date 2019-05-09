@@ -87,3 +87,42 @@ level":"info","message":"Connected to database successfully.","timestamp":"2019-
 {"level":"info","message":"Connected to database successfully.","timestamp":"2019-05-03T10:10:04.377Z"}
 {"level":"info","message":"Server started at port 5000.","timestamp":"2019-05-03T11:49:25.807Z"}
 {"level":"info","message":"Connected to database successfully.","timestamp":"2019-05-03T11:49:25.859Z"}
+{"level":"info","message":"Server started at port 5000.","timestamp":"2019-05-09T05:19:28.322Z"}
+{"level":"info","message":"Connected to database successfully.","timestamp":"2019-05-09T05:19:28.411Z"}
+{"level":"info","message":"query Insert into account (AccountName,UserId,IsActive) values ('Wipro','1', 1)","timestamp":"2019-05-09T05:30:28.940Z"}
+{"level":"error","message":"Internal server error Invalid column name 'undefined'.","timestamp":"2019-05-09T05:30:41.823Z"}
+{"level":"error","message":"Internal server error Invalid column name 'undefined'.","timestamp":"2019-05-09T05:30:45.246Z"}
+{"level":"error","message":"Internal server error Invalid column name 'undefined'.","timestamp":"2019-05-09T05:30:46.501Z"}
+{"level":"error","message":"Internal server error Invalid column name 'undefined'.","timestamp":"2019-05-09T05:30:50.587Z"}
+{"level":"info","message":"query Insert into account (AccountName,UserId,IsActive) values ('CPQ','1', 1)","timestamp":"2019-05-09T05:30:58.838Z"}
+{"level":"info","message":"query Insert into account (AccountName,UserId,IsActive) values ('Apple','1', 1)","timestamp":"2019-05-09T05:31:06.060Z"}
+{"level":"error","message":"Internal server error Invalid column name 'undefined'.","timestamp":"2019-05-09T05:31:42.230Z"}
+{"level":"error","message":"Internal server error Invalid column name 'undefined'.","timestamp":"2019-05-09T05:31:58.231Z"}
+{"level":"info","message":"Server started at port 5000.","timestamp":"2019-05-09T05:34:01.084Z"}
+{"level":"info","message":"Connected to database successfully.","timestamp":"2019-05-09T05:34:01.131Z"}
+{"level":"error","message":"Internal server error Invalid column name 'undefined'.","timestamp":"2019-05-09T05:34:14.606Z"}
+{"level":"info","message":"Server started at port 5000.","timestamp":"2019-05-09T05:34:59.864Z"}
+{"level":"info","message":"Connected to database successfully.","timestamp":"2019-05-09T05:34:59.921Z"}
+{"level":"info","message":"query Insert into account (AccountName,UserId,IsActive) values ('Infosys','1', 1)","timestamp":"2019-05-09T05:35:37.444Z"}
+{"level":"info","message":"Server started at port 5000.","timestamp":"2019-05-09T05:38:16.275Z"}
+{"level":"info","message":"Connected to database successfully.","timestamp":"2019-05-09T05:38:16.316Z"}
+{"level":"error","message":"Internal server error Invalid column name 'undefined'.","timestamp":"2019-05-09T05:45:39.108Z"}
+{"level":"info","message":"Server started at port 5000.","timestamp":"2019-05-09T05:45:53.227Z"}
+{"level":"info","message":"Connected to database successfully.","timestamp":"2019-05-09T05:45:53.294Z"}
+{"level":"info","message":"Server started at port 5000.","timestamp":"2019-05-09T06:09:02.498Z"}
+{"level":"info","message":"Connected to database successfully.","timestamp":"2019-05-09T06:09:02.554Z"}
+{"level":"info","message":"Server started at port 5000.","timestamp":"2019-05-09T06:38:12.818Z"}
+{"level":"info","message":"Connected to database successfully.","timestamp":"2019-05-09T06:38:12.868Z"}
+{"level":"info","message":"Server started at port 5000.","timestamp":"2019-05-09T06:49:32.068Z"}
+{"level":"info","message":"Connected to database successfully.","timestamp":"2019-05-09T06:49:32.134Z"}
+{"level":"info","message":"Server started at port 5000.","timestamp":"2019-05-09T10:43:44.882Z"}
+{"level":"info","message":"Connected to database successfully.","timestamp":"2019-05-09T10:43:44.937Z"}
+{"level":"info","message":"Server started at port 5000.","timestamp":"2019-05-09T11:34:47.779Z"}
+{"level":"info","message":"Connected to database successfully.","timestamp":"2019-05-09T11:34:47.846Z"}
+{"level":"info","message":"Server started at port 5000.","timestamp":"2019-05-09T11:35:43.050Z"}
+{"level":"info","message":"Connected to database successfully.","timestamp":"2019-05-09T11:35:43.093Z"}
+{"level":"error","message":"Internal server error Column 'Enterceptor.dbo.EmailSentimentData.LocalTimeStamp' is invalid in the select list because it is not contained in either an aggregate function or the GROUP BY clause.","timestamp":"2019-05-09T11:35:49.722Z"}
+{"level":"info","message":"Server started at port 5000.","timestamp":"2019-05-09T11:36:50.809Z"}
+{"level":"info","message":"Connected to database successfully.","timestamp":"2019-05-09T11:36:50.870Z"}
+{"level":"info","message":"Server started at port 5000.","timestamp":"2019-05-09T11:41:47.096Z"}
+{"level":"info","message":"Connected to database successfully.","timestamp":"2019-05-09T11:41:47.191Z"}

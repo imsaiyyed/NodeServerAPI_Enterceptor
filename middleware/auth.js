@@ -19,6 +19,7 @@ function verifyToken(req, res, next) {
     //req={...req,UserId=decoded.ID}
      req.UserId = decoded.Id;
     //  req.body=req.body;
+    console.log(req.body)
     next();
   });
 }
