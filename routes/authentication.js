@@ -23,6 +23,7 @@ router.post('/register', function(req, res) {
       res.status(200).send({ auth: true, token: token });
   });
   router.post('/login', async (req, res)=> {
+    console.log(req)
     var query = "select *  FROM [dbo].[User] where UserName= '" + req.body.Username + "' AND  isActive=1";
     const pool = await poolPromise;
     const result = await pool.request().query(query);

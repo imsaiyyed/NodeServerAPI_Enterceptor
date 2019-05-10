@@ -532,6 +532,13 @@ router.get("/SentimentTrend",VerifyToken, async (req, res) => {
   res.send(result.recordset);
 });
 
+router.get("/CategoryCount",VerifyToken, async (req, res) => {
+  var query = "SELECT  [Categorization],COUNT([Categorization]) AS Count FROM [Enterceptor].[dbo].[EmailSentimentData] WHERE CAST([Categorization] as varchar) != 'NULL' GROUP BY [Categorization] ORDER BY [Categorization]";
+
+  const pool = await poolPromise;
+  const result = await pool.request().query(query);
+  res.send(result.recordset);
+});
 
 // SELECT DatePart(week, localtimestamp) as Week,  month(localtimestamp) as Month, Sentimentscore FROM [Enterceptor].[dbo].[EmailSentimentData]
 // order by DatePart(week, localtimestamp)

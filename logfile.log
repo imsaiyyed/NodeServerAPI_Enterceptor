@@ -126,3 +126,18 @@ level":"info","message":"Connected to database successfully.","timestamp":"2019-
 {"level":"info","message":"Connected to database successfully.","timestamp":"2019-05-09T11:36:50.870Z"}
 {"level":"info","message":"Server started at port 5000.","timestamp":"2019-05-09T11:41:47.096Z"}
 {"level":"info","message":"Connected to database successfully.","timestamp":"2019-05-09T11:41:47.191Z"}
+{"level":"info","message":"Server started at port 5000.","timestamp":"2019-05-10T04:05:18.573Z"}
+{"message":"Database Connection Failed!","stack":"ConnectionError: Failed to connect to 192.168.101.20:1433 in 15000ms\n    at Connection.tedious.once.err (C:\\Users\\ismail.saiyyed\\Documents\\Enterceptor\\Node\\node_modules\\mssql\\lib\\tedious.js:216:17)\n    at Object.onceWrapper (events.js:273:13)\n    at Connection.emit (events.js:182:13)\n    at Connection.connectTimeout (C:\\Users\\ismail.saiyyed\\Documents\\Enterceptor\\Node\\node_modules\\tedious\\lib\\connection.js:924:12)\n    at listOnTimeout (timers.js:324:15)\n    at processTimers (timers.js:268:5)","code":"ETIMEOUT","originalError":{"message":"Failed to connect to 192.168.101.20:1433 in 15000ms","code":"ETIMEOUT"},"name":"ConnectionError","level":"error","timestamp":"2019-05-10T04:05:18.577Z"}
+{"level":"error","message":"Internal server error Cannot read property 'request' of undefined","timestamp":"2019-05-10T04:14:22.792Z"}
+{"level":"error","message":"Internal server error Cannot read property 'request' of undefined","timestamp":"2019-05-10T04:14:38.822Z"}
+{"level":"error","message":"Internal server error Cannot read property 'request' of undefined","timestamp":"2019-05-10T04:19:02.736Z"}
+{"level":"info","message":"Server started at port 5000.","timestamp":"2019-05-10T04:19:54.518Z"}
+{"level":"info","message":"Connected to database successfully.","timestamp":"2019-05-10T04:19:54.567Z"}
+{"level":"info","message":"Server started at port 5000.","timestamp":"2019-05-10T04:38:28.567Z"}
+{"level":"info","message":"Connected to database successfully.","timestamp":"2019-05-10T04:38:28.611Z"}
+{"level":"info","message":"Server started at port 5000.","timestamp":"2019-05-10T04:40:17.519Z"}
+{"level":"info","message":"Connected to database successfully.","timestamp":"2019-05-10T04:40:17.570Z"}
+{"level":"info","message":"Server started at port 5000.","timestamp":"2019-05-10T04:47:44.474Z"}
+{"level":"info","message":"Connected to database successfully.","timestamp":"2019-05-10T04:47:44.517Z"}
+{"level":"info","message":"Server started at port 5000.","timestamp":"2019-05-10T04:49:18.262Z"}
+{"level":"info","message":"Connected to database successfully.","timestamp":"2019-05-10T04:49:18.309Z"}
