@@ -161,6 +161,64 @@ router.get("/emaildata", async (req, res) => {
   res.send(result.recordset);
 });
 
+router.get("/TwitterDetails", async (req, res) => {
+  var query = "select *  FROM [Enterceptor].[dbo].[TwitterDetails] ";
+  const pool = await poolPromise;
+  const result = await pool.request().query(query);
+  res.send(result.recordset);
+});
+
+router.get("/TwitterTags", async (req, res) => {
+  var query = "select *  FROM [dbo].[TwitterTags]";
+  const pool = await poolPromise;
+  const result = await pool.request().query(query);
+  res.send(result.recordset);
+});
+
+
+router.get("/SalesforceDetails", async (req, res) => {
+  var query = "select * from [Enterceptor].[dbo].[SalesforceDetails]";
+  const pool = await poolPromise;
+  const result = await pool.request().query(query);
+  res.send(result.recordset);
+});
+
+router.post("/TwitterSentimentData", async (req, res) => {
+  var query =  'Insert into [dbo].[TwitterSentimentData]  ([UserId]  ,[TagId]  ,[CreatedAt]  ,[TextMessage]  ,[HashTags]  ,[UserMentions]  ,[UserName]  ,[RetweetCount]  ,[FavoriteCount]  ,[NeutralProb]  ,[NegativeProb]  ,[PositiveProb]  ,[Classification]) values ('+ 
+            req.body.UserId +   ',' + 
+            req.body.TagId +   ',' + 
+            '\''+ req.body.CreatedAt +   '\''+ ',' +
+           '\''+ req.body.TextMessage +   '\''+ ',' + 
+           '\''+ req.body.HashTags +   '\''+ ',' + 
+           '\''+ req.body.UserMentions +   '\''+ ',' + 
+           '\''+ req.body.UserName +   '\''+ ',' + 
+           req.body.RetweetCount +   ',' + 
+           req.body.FavoriteCount +   ',' + 
+           req.body.NeutralProb +   ',' + 
+           req.body.PositiveProb +   ',' + 
+           req.body.NegativeProb +   ',' + 
+           '\''+ req.body.Classification +   '\''+ ',' + 
+                ')' ; 
+   const pool = await poolPromise;
+    const result = await pool.request().query(query);
+    res.status(201).send('success');
+       
+});
+
+// "UserId": userInfo['UserId'],
+//             "TagId": tagInfo['Id'],
+//             "CreatedAt":str(str(CreatedDate.month)+'/'+str(CreatedDate.day)+'/'+str(CreatedDate.year)+' '+str(CreatedDate.hour)+':'+str(CreatedDate.minute)+':'+str(CreatedDate.second)),
+//             "TextMessage": tweet.text,
+//             "HashTags": hashTasgString,
+//             "UserMentions": mentionedUsersString,
+//             "UserName": tweet.user.screen_name,
+//             "RetweetCount": tweet.retweet_count,
+//             "FavoriteCount": tweet.favorite_count,
+//             "NeutralProb": str(result[0]),
+//             "PositiveProb": str(result[1]),
+//             "NegativeProb": str(result[2]),
+//             "Classification": str(result[3])
+
 router.get("/emailList", async (req, res) => {
   var query = "select Email from dbo.EmailList WHERE track=1 ";
   const pool = await poolPromise;
@@ -243,6 +301,8 @@ router.post("/emaildata/azurestorage", async (req, res) => {
     return res.status(404).send(error);
    }
  })
+
+ 
 
 function validate(email) {
   const schema = {

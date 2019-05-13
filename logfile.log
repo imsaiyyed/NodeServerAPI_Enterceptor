@@ -141,3 +141,15 @@ level":"info","message":"Connected to database successfully.","timestamp":"2019-
 {"level":"info","message":"Connected to database successfully.","timestamp":"2019-05-10T04:47:44.517Z"}
 {"level":"info","message":"Server started at port 5000.","timestamp":"2019-05-10T04:49:18.262Z"}
 {"level":"info","message":"Connected to database successfully.","timestamp":"2019-05-10T04:49:18.309Z"}
+{"level":"info","message":"Server started at port 5000.","timestamp":"2019-05-13T05:35:26.887Z"}
+{"message":"Database Connection Failed!","stack":"ConnectionError: Failed to connect to 192.168.101.20:1433 in 15000ms\n    at Connection.tedious.once.err (C:\\Users\\ismail.saiyyed\\Documents\\Enterceptor\\Node\\node_modules\\mssql\\lib\\tedious.js:216:17)\n    at Object.onceWrapper (events.js:273:13)\n    at Connection.emit (events.js:182:13)\n    at Connection.connectTimeout (C:\\Users\\ismail.saiyyed\\Documents\\Enterceptor\\Node\\node_modules\\tedious\\lib\\connection.js:924:12)\n    at listOnTimeout (timers.js:324:15)\n    at processTimers (timers.js:268:5)","code":"ETIMEOUT","originalError":{"message":"Failed to connect to 192.168.101.20:1433 in 15000ms","code":"ETIMEOUT"},"name":"ConnectionError","level":"error","timestamp":"2019-05-13T05:35:26.891Z"}
+{"level":"info","message":"Server started at port 5000.","timestamp":"2019-05-13T05:36:47.481Z"}
+{"level":"info","message":"Connected to database successfully.","timestamp":"2019-05-13T05:36:47.682Z"}
+{"level":"info","message":"Server started at port 5000.","timestamp":"2019-05-13T05:58:40.376Z"}
+{"level":"info","message":"Connected to database successfully.","timestamp":"2019-05-13T05:58:40.482Z"}
+{"level":"info","message":"Server started at port 5000.","timestamp":"2019-05-13T06:03:22.999Z"}
+{"level":"info","message":"Connected to database successfully.","timestamp":"2019-05-13T06:03:23.055Z"}
+{"level":"info","message":"Server started at port 5000.","timestamp":"2019-05-13T06:21:02.639Z"}
+{"level":"info","message":"Connected to database successfully.","timestamp":"2019-05-13T06:21:02.745Z"}
+{"level":"info","message":"Server started at port 5000.","timestamp":"2019-05-13T09:23:04.747Z"}
+{"level":"info","message":"Connected to database successfully.","timestamp":"2019-05-13T09:23:04.793Z"}
