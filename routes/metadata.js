@@ -204,7 +204,14 @@ router.post("/TwitterSentimentData", async (req, res) => {
     res.status(201).send('success');
        
 });
-
+router.get("/ExchangeServerDetails", async (req, res) => {
+  var query = "SELECT  [Id]  ,[ServiceAccountEmail]  ,[ServiceAccountPassword]"+
+  "  ,[ServiceAccountAutoDiscoverUrl]  ,[ClientName]  ,[IsActive]  ,[UserId]  ,[LastSync]"+
+  "FROM [Enterceptor].[dbo].[ExchangeDetails] WHERE [UserId]="+req.query.UserId;
+  const pool = await poolPromise;
+  const result = await pool.request().query(query);
+  res.send(result.recordset);
+});
 // "UserId": userInfo['UserId'],
 //             "TagId": tagInfo['Id'],
 //             "CreatedAt":str(str(CreatedDate.month)+'/'+str(CreatedDate.day)+'/'+str(CreatedDate.year)+' '+str(CreatedDate.hour)+':'+str(CreatedDate.minute)+':'+str(CreatedDate.second)),
@@ -220,7 +227,7 @@ router.post("/TwitterSentimentData", async (req, res) => {
 //             "Classification": str(result[3])
 
 router.get("/emailList", async (req, res) => {
-  var query = "select Email from dbo.EmailList WHERE track=1 ";
+  var query = "select Email from dbo.EmailList WHERE track=1 AND UserId="+req.query.UserId;
   const pool = await poolPromise;
   const result = await pool.request().query(query);
   res.send(result.recordset);

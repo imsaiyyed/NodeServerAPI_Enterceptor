@@ -6,7 +6,7 @@ var VerifyToken = require('../middleware/auth');
 
 var jwt = require('jsonwebtoken');
 var bcrypt = require('bcrypt');
-var config = require('../config/config');
+var config = require('../config/config'); 
 
 router.use(bodyParser.urlencoded({ extended: false }));
 router.use(bodyParser.json());
@@ -30,7 +30,7 @@ router.post('/register', function(req, res) {
     const user=result.recordset[0];
     if(result.rowsAffected[0]==1){
       if(user.Password==req.body.Password){
-        var token = jwt.sign({Id:user.Id, Username : req.body.Username,Password:req.body.Password}, config.secret, {
+        var token = jwt.sign({Id:user.Id, Username : req.body.Username,Role:user.Role}, config.secret, {
               expiresIn: 86400 // expires in 24 hours
             });
            res.status(200).send({ auth: true, token: token });

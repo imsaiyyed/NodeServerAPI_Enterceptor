@@ -482,7 +482,7 @@ router.get("/ChannelCredentials",VerifyToken, async (req, res) => {
 
 router.post("/ChannelCredentials", VerifyToken,async (req, res) => {
   var query =  'Insert into UserChannels (UserId,ChannelId,KeyId,Value) values'+ '('+ 
-                  req.UserId +    ',' + 
+                  req.body.UserId +    ',' + 
                   req.body.ChannelId +   ',' +  
                   req.body.KeyId +   ',' +   
                 '\''+ req.body.Value +   '\''+   ')' ; 
