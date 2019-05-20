@@ -10,6 +10,7 @@ const moment = require("moment");
 var jsonexport = require("jsonexport");
 var azure = require("azure-storage");
 var accountInfo = require("../config/azureAccount.json");
+const { exec } = require('child_process');
 
 router.post("/", async (req, res) => {
   const { error } = validate(req.body);
@@ -82,7 +83,6 @@ router.post("/", async (req, res) => {
    
   res.status(201).send(response.data);
 });
-
 router.post("/test", async (req, res) => {
   const { error } = validate(req.body);
   if (error) {
@@ -145,6 +145,25 @@ router.post("/test", async (req, res) => {
 
   res.status(201).send(response.data);
 });
+router.get("/testscheduler",async(req,res)=>{
+  exec('python D:/Spyder/Enterceptor/Channels/Scheduler.py 1', (err, stdout, stderr) => {
+    if (err) {
+      // node couldn't execute the command
+      console.log(`stdout: ${err}`);
+
+      return;
+    }
+    if (stderr) {
+      // node couldn't execute the command
+      console.log(`stdout: ${stderr}`);
+
+      return;
+    }
+    // the *entire* stdout and stderr (buffered)
+
+    console.log(`stdout: ${stdout}`);
+  });
+});
 
 router.get("/lastSync", async (req, res) => {
   var query =
@@ -183,6 +202,42 @@ router.get("/SalesforceDetails", async (req, res) => {
   res.send(result.recordset);
 });
 
+router.post("/SalesforceSentimentData", async (req, res) => {
+  var query =  'INSERT INTO [dbo].[SalesforceSentimentData]  ([UserId]  ,[CaseNumber]  ,[Subject]   ,[CreatedDate]  ,[ClosedDate]  ,[IsClosed]  ,[IsEscalated]  ,[Priority]  ,[Status]  ,[Reason]  ,[Owner]  ,[Origin]  ,[Product]  ,[Classification]  ,[PositiveProb]  ,[NegativeProb]  ,[NeutralProb]) VALUES('+ 
+            req.body.UserId +   ',' + 
+            req.body.CaseNumber +   ',' + 
+            '\''+ req.body.Subject +   '\''+ ',' +
+           '\''+ req.body.CreatedDate +   '\''+ ',' + 
+           '\''+ req.body.ClosedDate +   '\''+ ',' + 
+           '\''+ req.body.IsClosed +   '\''+ ',' + 
+           '\''+ req.body.IsEscalated +   '\''+ ',' + 
+           '\''+ req.body.Priority +   '\''+ ',' + 
+           '\''+ req.body.Status +   '\''+ ',' + 
+           '\''+ req.body.Reason +   '\''+ ',' + 
+           '\''+ req.body.Owner +   '\''+ ',' + 
+           '\''+ req.body.Origin +   '\''+ ',' + 
+           '\''+ req.body.Product +   '\''+ ',' + 
+           '\''+ req.body.Classification +   '\''+ ',' + 
+           req.body.PositiveProb +   ',' + 
+           req.body.NegativeProb +   ',' + 
+           req.body.NeutralProb +   '' + 
+                ')' ; 
+   const pool = await poolPromise;
+    const result = await pool.request().query(query);
+    res.status(201).send('success');   
+});
+
+
+
+
+
+router.get("/ExchangeServerData", async (req, res) => {
+  var query = "select * from [Enterceptor].[dbo].[SalesforceDetails]";
+  const pool = await poolPromise;
+  const result = await pool.request().query(query);
+  res.send(result.recordset);
+});
+
 router.post("/TwitterSentimentData", async (req, res) => {
   var query =  'Insert into [dbo].[TwitterSentimentData]  ([UserId]  ,[TagId]  ,[CreatedAt]  ,[TextMessage]  ,[HashTags]  ,[UserMentions]  ,[UserName]  ,[RetweetCount]  ,[FavoriteCount]  ,[NeutralProb]  ,[NegativeProb]  ,[PositiveProb]  ,[Classification]) values ('+ 
             req.body.UserId +   ',' + 
@@ -195,9 +250,10 @@ router.post("/TwitterSentimentData", async (req, res) => {
            req.body.RetweetCount +   ',' + 
            req.body.FavoriteCount +   ',' + 
            req.body.NeutralProb +   ',' + 
-           req.body.PositiveProb +   ',' + 
            req.body.NegativeProb +   ',' + 
-           '\''+ req.body.Classification +   '\''+ ',' + 
+           req.body.PositiveProb +   ',' + 
+
+           '\''+ req.body.Classification +   '\''+ '' + 
                 ')' ; 
    const pool = await poolPromise;
     const result = await pool.request().query(query);
@@ -212,19 +268,6 @@ router.get("/ExchangeServerDetails", async (req, res) => {
   const result = await pool.request().query(query);
   res.send(result.recordset);
 });
-// "UserId": userInfo['UserId'],
-//             "TagId": tagInfo['Id'],
-//             "CreatedAt":str(str(CreatedDate.month)+'/'+str(CreatedDate.day)+'/'+str(CreatedDate.year)+' '+str(CreatedDate.hour)+':'+str(CreatedDate.minute)+':'+str(CreatedDate.second)),
-//             "TextMessage": tweet.text,
-//             "HashTags": hashTasgString,
-//             "UserMentions": mentionedUsersString,
-//             "UserName": tweet.user.screen_name,
-//             "RetweetCount": tweet.retweet_count,
-//             "FavoriteCount": tweet.favorite_count,
-//             "NeutralProb": str(result[0]),
-//             "PositiveProb": str(result[1]),
-//             "NegativeProb": str(result[2]),
-//             "Classification": str(result[3])
 
 router.get("/emailList", async (req, res) => {
   var query = "select Email from dbo.EmailList WHERE track=1 AND UserId="+req.query.UserId;
@@ -310,6 +353,89 @@ router.post("/emaildata/azurestorage", async (req, res) => {
  })
 
  
+router.post("/exchangeData", async (req, res) => {
+  // const { error } = validate(req.body);
+
+  // if (error) {
+  //   winston.error("Error occurred ", error.message);
+  //   res.status(400).send(error.details[0].message);
+  //   return;
+  // }
+  console.log(req.body);
+  // res.status(200).json({message:'Success'});
+
+  let EmailBody = req.body.Body;
+  let Subject = req.body.Subject;
+  let ConversationId = req.body.ConversationId;
+  let Sender = req.body.From;
+  let ToList = req.body.ToList;
+  let CCList =  req.body.CCList;
+  let Classification=req.body.Classification;
+  let Domain = Utilities.extractDomain(Sender);
+  //let AccountName = Utilities.extractAccountName(Domain);
+  let AccountName = Utilities.extractAccountNameWithoutDomain(Domain);
+
+  let LocalTimeStamp = req.body.LocalReceivedDate;
+  let GMTTimeStamp = req.body.ReceivedDate;
+
+ 
+  const PositiveProbBody = req.body.PositiveProbBody;
+  const NegativeProbBody = req.body.NegativeProbBody;
+  const NeutralProbBody = req.body.NeutralProbBody;
+ 
+  const PositiveProbSubject = req.body.PositiveProbSubject;
+  const NegativeProbSubject = req.body.NegativeProbSubject;
+  const NeutralProbSubject = req.body.NeutralProbSubject;
+  
+  const Subjectivity = undefined;
+  const Keywords = undefined;
+  const SubjectScore = undefined;
+  var SentimentScore = undefined;
+  const Sentiment = req.body.Sentiment;
+  const TextAbout = undefined;
+  const ExplicitContent = undefined;
+  const SubjectSubjectivity =undefined;
+  const Categorization = undefined;
+  const Intent = undefined;
+
+   var query =
+    "Insert into dbo.EmailSentimentData(Sentiment, ConversationId, Subject, Sender, ToList, CCList, SentimentScore,  SubjectScore, Domain, AccountName,LocalTimeStamp, GMTTimeStamp, Keywords,Subjectivity, Intent, CreatedAt, Categorization ,SubjectSubjectivity,ExplicitContent, TextAbout , EmailBody,Classification,PositiveProbability,NegativeProbability,NeutralProbability,SubjectNegativeProbability,SubjectNeutralProbability ,SubjectPositiveProbability)values" +
+    "(@Sentiment, @ConversationId,@Subject,@Sender,@ToList,@CCList, @SentimentScore, @SubjectScore , @Domain, @AccountName,@LocalTimeStamp, @GMTTimeStamp,@Keywords ,@Subjectivity,@Intent,@CreatedAt,@Categorization,@SubjectSubjectivity,@ExplicitContent,@TextAbout, @EmailBody,@Classification,@PositiveProbability,@NegativeProbability,@NeutralProbability,@SubjectNegativeProbability,@SubjectNeutralProbability,@SubjectPositiveProbability)";
+  const pool = await poolPromise;
+  const result = await pool
+    .request()
+    .input("Sentiment", Sentiment)
+    .input("ConversationId", ConversationId)
+    .input("Subject", Subject)
+    .input("Sender", Sender)
+    .input("ToList", ToList)
+    .input("CCList", CCList)
+    .input("SentimentScore", SentimentScore)
+    .input("SubjectScore", SubjectScore)
+    .input("Domain", Domain)
+    .input("AccountName", AccountName)
+    .input("LocalTimeStamp", new Date(LocalTimeStamp))
+    .input("GMTTimeStamp", new Date(GMTTimeStamp))
+    .input("Keywords", Keywords)
+    .input("Subjectivity", Subjectivity)
+    .input("Intent", Intent)
+    .input("CreatedAt", new Date())
+    .input("Categorization", Categorization)
+    .input("SubjectSubjectivity", SubjectSubjectivity)
+    .input("ExplicitContent", ExplicitContent)
+    .input("TextAbout", TextAbout)
+    .input("EmailBody", EmailBody)
+    .input("Classification",Classification)
+    .input("PositiveProbability",PositiveProbBody)
+    .input("NegativeProbability",NegativeProbBody)
+    .input("NeutralProbability",NeutralProbBody)
+    .input("SubjectNegativeProbability",NegativeProbSubject)
+    .input("SubjectNeutralProbability",NeutralProbSubject)
+    .input("SubjectPositiveProbability",PositiveProbSubject)
+    .query(query);
+  res.status(201).send({'message':'Success'});
+});
+
 
 function validate(email) {
   const schema = {

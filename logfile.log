@@ -194,3 +194,353 @@ level":"info","message":"Connected to database successfully.","timestamp":"2019-
 {"level":"info","message":"Connected to database successfully.","timestamp":"2019-05-16T10:36:43.024Z"}
 {"level":"info","message":"Server started at port 5000.","timestamp":"2019-05-16T10:36:48.869Z"}
 {"level":"info","message":"Connected to database successfully.","timestamp":"2019-05-16T10:36:48.934Z"}
+{"level":"info","message":"Server started at port 5000.","timestamp":"2019-05-17T05:05:52.306Z"}
+{"level":"info","message":"Connected to database successfully.","timestamp":"2019-05-17T05:05:52.357Z"}
+{"level":"info","message":"Server started at port 5000.","timestamp":"2019-05-17T05:24:15.238Z"}
+{"level":"info","message":"Connected to database successfully.","timestamp":"2019-05-17T05:24:15.292Z"}
+{"level":"error","message":"Internal server error Incorrect syntax near ')'.","timestamp":"2019-05-17T07:14:03.347Z"}
+{"level":"error","message":"Internal server error Incorrect syntax near ')'.","timestamp":"2019-05-17T07:14:03.364Z"}
+{"level":"error","message":"Internal server error Incorrect syntax near ')'.","timestamp":"2019-05-17T07:14:03.379Z"}
+{"level":"error","message":"Internal server error Incorrect syntax near ')'.","timestamp":"2019-05-17T07:14:03.494Z"}
+{"level":"error","message":"Internal server error Incorrect syntax near ')'.","timestamp":"2019-05-17T07:14:03.511Z"}
+{"level":"error","message":"Internal server error Incorrect syntax near ')'.","timestamp":"2019-05-17T07:14:03.530Z"}
+{"level":"error","message":"Internal server error Incorrect syntax near ')'.","timestamp":"2019-05-17T07:14:03.564Z"}
+{"level":"error","message":"Internal server error Incorrect syntax near ')'.","timestamp":"2019-05-17T07:14:03.581Z"}
+{"level":"error","message":"Internal server error Incorrect syntax near ')'.","timestamp":"2019-05-17T07:14:03.614Z"}
+{"level":"error","message":"Internal server error Incorrect syntax near ')'.","timestamp":"2019-05-17T07:14:03.647Z"}
+{"level":"error","message":"Internal server error Incorrect syntax near ')'.","timestamp":"2019-05-17T07:14:03.681Z"}
+{"level":"error","message":"Internal server error Incorrect syntax near ')'.","timestamp":"2019-05-17T07:14:03.714Z"}
+{"level":"error","message":"Internal server error Incorrect syntax near ')'.","timestamp":"2019-05-17T07:14:03.738Z"}
+{"level":"error","message":"Internal server error Incorrect syntax near ')'.","timestamp":"2019-05-17T07:14:03.754Z"}
+{"level":"error","message":"Internal server error Incorrect syntax near ')'.","timestamp":"2019-05-17T07:14:03.786Z"}
+{"level":"error","message":"Internal server error Incorrect syntax near ')'.","timestamp":"2019-05-17T07:14:10.750Z"}
+{"level":"error","message":"Internal server error Incorrect syntax near ')'.","timestamp":"2019-05-17T07:14:10.766Z"}
+{"level":"error","message":"Internal server error Incorrect syntax near ')'.","timestamp":"2019-05-17T07:14:10.833Z"}
+{"level":"error","message":"Internal server error Incorrect syntax near ')'.","timestamp":"2019-05-17T07:14:10.850Z"}
+{"level":"error","message":"Internal server error Incorrect syntax near ')'.","timestamp":"2019-05-17T07:14:10.864Z"}
+{"level":"error","message":"Internal server error Incorrect syntax near ')'.","timestamp":"2019-05-17T07:14:10.892Z"}
+{"level":"error","message":"Internal server error Incorrect syntax near ')'.","timestamp":"2019-05-17T07:14:10.978Z"}
+{"level":"error","message":"Internal server error Incorrect syntax near ')'.","timestamp":"2019-05-17T07:14:11.004Z"}
+{"level":"error","message":"Internal server error Incorrect syntax near ')'.","timestamp":"2019-05-17T07:14:11.033Z"}
+{"level":"error","message":"Internal server error Incorrect syntax near ')'.","timestamp":"2019-05-17T07:14:11.049Z"}
+{"level":"error","message":"Internal server error Incorrect syntax near ')'.","timestamp":"2019-05-17T07:14:16.650Z"}
+{"level":"error","message":"Internal server error Incorrect syntax near ')'.","timestamp":"2019-05-17T07:14:16.799Z"}
+{"level":"error","message":"Internal server error Incorrect syntax near ')'.","timestamp":"2019-05-17T07:14:16.888Z"}
+{"level":"error","message":"Internal server error Incorrect syntax near ')'.","timestamp":"2019-05-17T07:14:16.915Z"}
+{"level":"error","message":"Internal server error Incorrect syntax near ')'.","timestamp":"2019-05-17T07:14:16.930Z"}
+{"level":"error","message":"Internal server error Incorrect syntax near ')'.","timestamp":"2019-05-17T07:14:16.966Z"}
+{"level":"error","message":"Internal server error Incorrect syntax near ')'.","timestamp":"2019-05-17T07:14:16.983Z"}
+{"level":"error","message":"Internal server error Incorrect syntax near ')'.","timestamp":"2019-05-17T07:14:17.027Z"}
+{"level":"error","message":"Internal server error Incorrect syntax near ')'.","timestamp":"2019-05-17T07:14:17.043Z"}
+{"level":"error","message":"Internal server error Incorrect syntax near ')'.","timestamp":"2019-05-17T07:14:17.072Z"}
+{"level":"error","message":"Internal server error Incorrect syntax near ')'.","timestamp":"2019-05-17T07:14:24.203Z"}
+{"level":"error","message":"Internal server error Incorrect syntax near ')'.","timestamp":"2019-05-17T07:14:24.276Z"}
+{"level":"error","message":"Internal server error Incorrect syntax near ')'.","timestamp":"2019-05-17T07:14:24.294Z"}
+{"level":"error","message":"Internal server error Incorrect syntax near ')'.","timestamp":"2019-05-17T07:14:24.324Z"}
+{"level":"error","message":"Internal server error Incorrect syntax near ')'.","timestamp":"2019-05-17T07:14:24.342Z"}
+{"level":"error","message":"Internal server error Incorrect syntax near ')'.","timestamp":"2019-05-17T07:14:24.370Z"}
+{"level":"error","message":"Internal server error Incorrect syntax near ')'.","timestamp":"2019-05-17T07:14:24.406Z"}
+{"level":"error","message":"Internal server error Incorrect syntax near ')'.","timestamp":"2019-05-17T07:14:24.438Z"}
+{"level":"error","message":"Internal server error Incorrect syntax near ')'.","timestamp":"2019-05-17T07:14:24.460Z"}
+{"level":"error","message":"Internal server error Incorrect syntax near ')'.","timestamp":"2019-05-17T07:14:24.486Z"}
+{"level":"error","message":"Internal server error Incorrect syntax near ')'.","timestamp":"2019-05-17T07:14:24.520Z"}
+{"level":"error","message":"Internal server error Incorrect syntax near ')'.","timestamp":"2019-05-17T07:14:24.537Z"}
+{"level":"info","message":"Server started at port 5000.","timestamp":"2019-05-17T08:38:44.364Z"}
+{"level":"info","message":"Connected to database successfully.","timestamp":"2019-05-17T08:38:44.443Z"}
+{"level":"error","message":"Internal server error Unclosed quotation mark after the character string ')'.","timestamp":"2019-05-17T08:38:57.765Z"}
+{"level":"error","message":"Internal server error Incorrect syntax near the keyword 'with'. If this statement is a common table expression, an xmlnamespaces clause or a change tracking context clause, the previous statement must be terminated with a semicolon.","timestamp":"2019-05-17T08:38:59.623Z"}
+{"level":"error","message":"Internal server error Unclosed quotation mark after the character string ')'.","timestamp":"2019-05-17T08:39:06.107Z"}
+{"level":"error","message":"Internal server error Unclosed quotation mark after the character string ')'.","timestamp":"2019-05-17T08:39:06.302Z"}
+{"level":"error","message":"Internal server error Unclosed quotation mark after the character string ')'.","timestamp":"2019-05-17T08:39:10.810Z"}
+{"level":"error","message":"Internal server error Unclosed quotation mark after the character string ')'.","timestamp":"2019-05-17T08:39:12.016Z"}
+{"level":"error","message":"Internal server error Unclosed quotation mark after the character string ')'.","timestamp":"2019-05-17T08:39:13.230Z"}
+{"level":"error","message":"Internal server error Unclosed quotation mark after the character string ')'.","timestamp":"2019-05-17T08:39:13.295Z"}
+{"level":"error","message":"Internal server error Unclosed quotation mark after the character string ')'.","timestamp":"2019-05-17T08:39:14.241Z"}
+{"level":"error","message":"Internal server error Unclosed quotation mark after the character string ')'.","timestamp":"2019-05-17T08:39:16.356Z"}
+{"level":"error","message":"Internal server error Unclosed quotation mark after the character string ')'.","timestamp":"2019-05-17T08:39:16.437Z"}
+{"level":"info","message":"Server started at port 5000.","timestamp":"2019-05-17T08:40:27.911Z"}
+{"level":"info","message":"Connected to database successfully.","timestamp":"2019-05-17T08:40:27.967Z"}
+{"level":"error","message":"Internal server error Unclosed quotation mark after the character string ')'.","timestamp":"2019-05-17T08:40:47.844Z"}
+{"level":"error","message":"Internal server error Unclosed quotation mark after the character string ')'.","timestamp":"2019-05-17T08:40:49.595Z"}
+{"level":"error","message":"Internal server error Incorrect syntax near the keyword 'with'. If this statement is a common table expression, an xmlnamespaces clause or a change tracking context clause, the previous statement must be terminated with a semicolon.","timestamp":"2019-05-17T08:40:53.940Z"}
+{"level":"error","message":"Internal server error Unclosed quotation mark after the character string ')'.","timestamp":"2019-05-17T08:41:08.440Z"}
+{"level":"error","message":"Internal server error Unclosed quotation mark after the character string ')'.","timestamp":"2019-05-17T08:41:08.641Z"}
+{"level":"error","message":"Internal server error Unclosed quotation mark after the character string ')'.","timestamp":"2019-05-17T11:52:37.593Z"}
+{"level":"error","message":"Internal server error Unclosed quotation mark after the character string ')'.","timestamp":"2019-05-17T11:52:38.112Z"}
+{"level":"error","message":"Internal server error Unclosed quotation mark after the character string ')'.","timestamp":"2019-05-17T11:52:41.678Z"}
+{"level":"error","message":"Internal server error Unclosed quotation mark after the character string ')'.","timestamp":"2019-05-17T11:52:50.440Z"}
+{"level":"error","message":"Internal server error Unclosed quotation mark after the character string ')'.","timestamp":"2019-05-17T11:52:57.769Z"}
+{"level":"error","message":"Internal server error Unclosed quotation mark after the character string ')'.","timestamp":"2019-05-17T11:52:59.472Z"}
+{"level":"error","message":"Internal server error Unclosed quotation mark after the character string ')'.","timestamp":"2019-05-17T11:53:02.877Z"}
+{"level":"error","message":"Internal server error Unclosed quotation mark after the character string ')'.","timestamp":"2019-05-17T11:53:03.445Z"}
+{"level":"error","message":"Internal server error Unclosed quotation mark after the character string ')'.","timestamp":"2019-05-17T11:53:04.856Z"}
+{"level":"error","message":"Internal server error Unclosed quotation mark after the character string ')'.","timestamp":"2019-05-17T11:53:04.871Z"}
+{"level":"error","message":"Internal server error Unclosed quotation mark after the character string ')'.","timestamp":"2019-05-17T11:53:06.638Z"}
+{"level":"error","message":"Internal server error Unclosed quotation mark after the character string ')'.","timestamp":"2019-05-17T11:53:07.931Z"}
+{"level":"error","message":"Internal server error Unclosed quotation mark after the character string ')'.","timestamp":"2019-05-17T11:53:08.859Z"}
+{"level":"error","message":"Internal server error Unclosed quotation mark after the character string ')'.","timestamp":"2019-05-17T11:53:10.930Z"}
+{"level":"error","message":"Internal server error Unclosed quotation mark after the character string ')'.","timestamp":"2019-05-17T11:53:11.025Z"}
+{"level":"error","message":"Internal server error Unclosed quotation mark after the character string ')'.","timestamp":"2019-05-17T11:53:11.335Z"}
+{"level":"error","message":"Internal server error Unclosed quotation mark after the character string ')'.","timestamp":"2019-05-17T11:53:11.403Z"}
+{"level":"error","message":"Internal server error Unclosed quotation mark after the character string ')'.","timestamp":"2019-05-17T11:53:13.164Z"}
+{"level":"error","message":"Internal server error Unclosed quotation mark after the character string ')'.","timestamp":"2019-05-17T11:53:13.486Z"}
+{"level":"error","message":"Internal server error Incorrect syntax near 'm'.","timestamp":"2019-05-17T11:53:31.300Z"}
+{"level":"error","message":"Internal server error Unclosed quotation mark after the character string ')'.","timestamp":"2019-05-17T11:53:31.991Z"}
+{"level":"error","message":"Internal server error Incorrect syntax near 's'.","timestamp":"2019-05-17T11:53:35.897Z"}
+{"level":"error","message":"Internal server error Unclosed quotation mark after the character string ')'.","timestamp":"2019-05-17T11:53:39.351Z"}
+{"level":"error","message":"Internal server error Unclosed quotation mark after the character string ')'.","timestamp":"2019-05-17T11:53:48.649Z"}
+{"level":"error","message":"Internal server error Unclosed quotation mark after the character string ')'.","timestamp":"2019-05-17T11:53:49.985Z"}
+{"level":"error","message":"Internal server error Unclosed quotation mark after the character string ')'.","timestamp":"2019-05-17T11:53:50.071Z"}
+{"level":"error","message":"Internal server error Unclosed quotation mark after the character string ')'.","timestamp":"2019-05-17T11:53:50.928Z"}
+{"level":"error","message":"Internal server error Unclosed quotation mark after the character string ')'.","timestamp":"2019-05-17T11:53:52.642Z"}
+{"level":"error","message":"Internal server error Incorrect syntax near the keyword 'with'. If this statement is a common table expression, an xmlnamespaces clause or a change tracking context clause, the previous statement must be terminated with a semicolon.","timestamp":"2019-05-17T11:53:55.378Z"}
+{"level":"error","message":"Internal server error Unclosed quotation mark after the character string ')'.","timestamp":"2019-05-17T11:54:03.600Z"}
+{"level":"error","message":"Internal server error Unclosed quotation mark after the character string ')'.","timestamp":"2019-05-17T11:54:04.233Z"}
+{"level":"error","message":"Internal server error Unclosed quotation mark after the character string ')'.","timestamp":"2019-05-17T11:54:10.853Z"}
+{"level":"error","message":"Internal server error Unclosed quotation mark after the character string ')'.","timestamp":"2019-05-17T11:54:13.366Z"}
+{"level":"error","message":"Internal server error Unclosed quotation mark after the character string ')'.","timestamp":"2019-05-17T11:54:14.745Z"}
+{"level":"error","message":"Internal server error Unclosed quotation mark after the character string ')'.","timestamp":"2019-05-17T11:54:14.862Z"}
+{"level":"error","message":"Internal server error Unclosed quotation mark after the character string ')'.","timestamp":"2019-05-17T11:54:15.977Z"}
+{"level":"error","message":"Internal server error Unclosed quotation mark after the character string ')'.","timestamp":"2019-05-17T11:54:19.717Z"}
+{"level":"error","message":"Internal server error Unclosed quotation mark after the character string ')'.","timestamp":"2019-05-17T11:54:19.921Z"}
+{"level":"error","message":"Internal server error Unclosed quotation mark after the character string ')'.","timestamp":"2019-05-17T11:54:31.490Z"}
+{"level":"error","message":"Internal server error Incorrect syntax near the keyword 'with'. If this statement is a common table expression, an xmlnamespaces clause or a change tracking context clause, the previous statement must be terminated with a semicolon.","timestamp":"2019-05-17T11:54:32.971Z"}
+{"level":"error","message":"Internal server error Incorrect syntax near the keyword 'with'. If this statement is a common table expression, an xmlnamespaces clause or a change tracking context clause, the previous statement must be terminated with a semicolon.","timestamp":"2019-05-17T11:54:39.003Z"}
+{"level":"error","message":"Internal server error Unclosed quotation mark after the character string ')'.","timestamp":"2019-05-17T11:54:39.024Z"}
+{"level":"error","message":"Internal server error Incorrect syntax near the keyword 'with'. If this statement is a common table expression, an xmlnamespaces clause or a change tracking context clause, the previous statement must be terminated with a semicolon.","timestamp":"2019-05-17T11:54:42.778Z"}
+{"level":"error","message":"Internal server error Unclosed quotation mark after the character string ')'.","timestamp":"2019-05-17T11:54:48.538Z"}
+{"level":"error","message":"Internal server error Unclosed quotation mark after the character string ')'.","timestamp":"2019-05-17T11:54:53.505Z"}
+{"level":"error","message":"Internal server error Unclosed quotation mark after the character string ')'.","timestamp":"2019-05-17T11:54:54.728Z"}
+{"level":"error","message":"Internal server error Unclosed quotation mark after the character string ')'.","timestamp":"2019-05-17T11:55:00.780Z"}
+{"level":"error","message":"Internal server error Unclosed quotation mark after the character string ')'.","timestamp":"2019-05-17T11:55:02.829Z"}
+{"level":"error","message":"Internal server error Unclosed quotation mark after the character string ')'.","timestamp":"2019-05-17T11:55:11.806Z"}
+{"level":"error","message":"Internal server error Unclosed quotation mark after the character string ')'.","timestamp":"2019-05-17T11:55:14.227Z"}
+{"level":"error","message":"Internal server error Unclosed quotation mark after the character string ')'.","timestamp":"2019-05-17T11:55:15.059Z"}
+{"level":"error","message":"Internal server error Unclosed quotation mark after the character string ')'.","timestamp":"2019-05-17T11:55:42.011Z"}
+{"level":"error","message":"Internal server error Unclosed quotation mark after the character string ')'.","timestamp":"2019-05-17T11:55:42.050Z"}
+{"level":"error","message":"Internal server error Unclosed quotation mark after the character string ')'.","timestamp":"2019-05-17T11:55:47.657Z"}
+{"level":"error","message":"Internal server error Incorrect syntax near 's'.","timestamp":"2019-05-17T11:55:59.070Z"}
+{"level":"error","message":"Internal server error Unclosed quotation mark after the character string ')'.","timestamp":"2019-05-17T11:55:59.127Z"}
+{"level":"error","message":"Internal server error Unclosed quotation mark after the character string ')'.","timestamp":"2019-05-17T11:56:23.591Z"}
+{"level":"error","message":"Internal server error Incorrect syntax near 't'.","timestamp":"2019-05-17T11:56:33.626Z"}
+{"level":"error","message":"Internal server error Unclosed quotation mark after the character string ')'.","timestamp":"2019-05-17T11:57:13.765Z"}
+{"level":"error","message":"Internal server error Incorrect syntax near 's'.","timestamp":"2019-05-17T11:57:15.690Z"}
+{"level":"error","message":"Internal server error Unclosed quotation mark after the character string ')'.","timestamp":"2019-05-17T11:57:17.008Z"}
+{"level":"error","message":"Internal server error Unclosed quotation mark after the character string ')'.","timestamp":"2019-05-17T11:57:29.500Z"}
+{"level":"error","message":"Internal server error Unclosed quotation mark after the character string ')'.","timestamp":"2019-05-17T12:07:55.500Z"}
+{"level":"error","message":"Internal server error Unclosed quotation mark after the character string ')'.","timestamp":"2019-05-17T12:07:58.233Z"}
+{"level":"error","message":"Internal server error Unclosed quotation mark after the character string ')'.","timestamp":"2019-05-17T12:08:12.301Z"}
+{"level":"error","message":"Internal server error Unclosed quotation mark after the character string ')'.","timestamp":"2019-05-17T12:08:23.177Z"}
+{"level":"error","message":"Internal server error Unclosed quotation mark after the character string ')'.","timestamp":"2019-05-17T12:08:28.107Z"}
+{"level":"error","message":"Internal server error Unclosed quotation mark after the character string ')'.","timestamp":"2019-05-17T12:08:36.455Z"}
+{"level":"error","message":"Internal server error Incorrect syntax near 's'.","timestamp":"2019-05-17T12:08:37.782Z"}
+{"level":"error","message":"Internal server error Unclosed quotation mark after the character string ')'.","timestamp":"2019-05-17T12:08:42.067Z"}
+{"level":"error","message":"Internal server error Unclosed quotation mark after the character string ')'.","timestamp":"2019-05-17T12:08:44.373Z"}
+{"level":"error","message":"Internal server error Incorrect syntax near 's'.","timestamp":"2019-05-17T12:08:45.808Z"}
+{"level":"error","message":"Internal server error Unclosed quotation mark after the character string ')'.","timestamp":"2019-05-17T12:08:50.179Z"}
+{"level":"error","message":"Internal server error Unclosed quotation mark after the character string ')'.","timestamp":"2019-05-17T12:08:53.904Z"}
+{"level":"error","message":"Internal server error Incorrect syntax near 's'.","timestamp":"2019-05-17T12:08:54.763Z"}
+{"level":"error","message":"Internal server error Unclosed quotation mark after the character string ')'.","timestamp":"2019-05-17T12:08:58.425Z"}
+{"level":"error","message":"Internal server error Unclosed quotation mark after the character string ')'.","timestamp":"2019-05-17T12:09:00.630Z"}
+{"level":"error","message":"Internal server error Unclosed quotation mark after the character string ')'.","timestamp":"2019-05-17T12:09:05.715Z"}
+{"level":"error","message":"Internal server error Unclosed quotation mark after the character string ')'.","timestamp":"2019-05-17T12:09:17.662Z"}
+{"level":"error","message":"Internal server error Unclosed quotation mark after the character string ')'.","timestamp":"2019-05-17T12:09:23.385Z"}
+{"level":"error","message":"Internal server error Unclosed quotation mark after the character string ')'.","timestamp":"2019-05-17T12:09:29.048Z"}
+{"level":"error","message":"Internal server error Unclosed quotation mark after the character string ')'.","timestamp":"2019-05-17T12:09:29.749Z"}
+{"level":"error","message":"Internal server error Unclosed quotation mark after the character string ')'.","timestamp":"2019-05-17T12:09:31.740Z"}
+{"level":"error","message":"Internal server error Unclosed quotation mark after the character string ')'.","timestamp":"2019-05-17T12:09:31.949Z"}
+{"level":"error","message":"Internal server error Unclosed quotation mark after the character string ')'.","timestamp":"2019-05-17T12:09:37.928Z"}
+{"level":"error","message":"Internal server error Unclosed quotation mark after the character string ')'.","timestamp":"2019-05-17T12:09:38.774Z"}
+{"level":"error","message":"Internal server error Incorrect syntax near 'Makepisi'.","timestamp":"2019-05-17T12:09:40.741Z"}
+{"level":"error","message":"Internal server error Incorrect syntax near 'Makepisi'.","timestamp":"2019-05-17T12:09:43.209Z"}
+{"level":"error","message":"Internal server error Unclosed quotation mark after the character string ')'.","timestamp":"2019-05-17T12:09:57.653Z"}
+{"level":"error","message":"Internal server error Unclosed quotation mark after the character string ')'.","timestamp":"2019-05-17T12:10:02.807Z"}
+{"level":"error","message":"Internal server error Unclosed quotation mark after the character string ')'.","timestamp":"2019-05-17T12:10:06.715Z"}
+{"level":"error","message":"Internal server error Unclosed quotation mark after the character string ')'.","timestamp":"2019-05-17T12:10:08.667Z"}
+{"level":"error","message":"Internal server error Unclosed quotation mark after the character string ')'.","timestamp":"2019-05-17T12:10:11.199Z"}
+{"level":"error","message":"Internal server error Unclosed quotation mark after the character string ')'.","timestamp":"2019-05-17T12:10:38.395Z"}
+{"level":"info","message":"Server started at port 5000.","timestamp":"2019-05-20T05:27:54.953Z"}
+{"level":"info","message":"Connected to database successfully.","timestamp":"2019-05-20T05:27:55.108Z"}
+{"level":"info","message":"Server started at port 5000.","timestamp":"2019-05-20T07:12:38.227Z"}
+{"level":"info","message":"Connected to database successfully.","timestamp":"2019-05-20T07:12:38.283Z"}
+{"level":"error","message":"Error occurred  \"LocalReceivedDate\" is not allowed. \"NeutralProbBody\" is not allowed. \"PositiveProbBody\" is not allowed. \"NegativeProbBody\" is not allowed. \"NeutralProbSubject\" is not allowed. \"PositiveProbSubject\" is not allowed. \"NegativeProbSubject\" is not allowed. \"Classification\" is not allowed. \"Sentiment\" is not allowed","timestamp":"2019-05-20T07:22:07.292Z"}
+{"level":"error","message":"Error occurred  \"LocalReceivedDate\" is not allowed. \"NeutralProbBody\" is not allowed. \"PositiveProbBody\" is not allowed. \"NegativeProbBody\" is not allowed. \"NeutralProbSubject\" is not allowed. \"PositiveProbSubject\" is not allowed. \"NegativeProbSubject\" is not allowed. \"Classification\" is not allowed. \"Sentiment\" is not allowed","timestamp":"2019-05-20T07:22:07.312Z"}
+{"level":"error","message":"Error occurred  \"LocalReceivedDate\" is not allowed. \"NeutralProbBody\" is not allowed. \"PositiveProbBody\" is not allowed. \"NegativeProbBody\" is not allowed. \"NeutralProbSubject\" is not allowed. \"PositiveProbSubject\" is not allowed. \"NegativeProbSubject\" is not allowed. \"Classification\" is not allowed. \"Sentiment\" is not allowed","timestamp":"2019-05-20T07:22:07.339Z"}
+{"level":"error","message":"Error occurred  \"LocalReceivedDate\" is not allowed. \"NeutralProbBody\" is not allowed. \"PositiveProbBody\" is not allowed. \"NegativeProbBody\" is not allowed. \"NeutralProbSubject\" is not allowed. \"PositiveProbSubject\" is not allowed. \"NegativeProbSubject\" is not allowed. \"Classification\" is not allowed. \"Sentiment\" is not allowed","timestamp":"2019-05-20T07:22:07.367Z"}
+{"level":"error","message":"Error occurred  \"LocalReceivedDate\" is not allowed. \"NeutralProbBody\" is not allowed. \"PositiveProbBody\" is not allowed. \"NegativeProbBody\" is not allowed. \"NeutralProbSubject\" is not allowed. \"PositiveProbSubject\" is not allowed. \"NegativeProbSubject\" is not allowed. \"Classification\" is not allowed. \"Sentiment\" is not allowed","timestamp":"2019-05-20T07:22:07.396Z"}
+{"level":"error","message":"Error occurred  \"LocalReceivedDate\" is not allowed. \"NeutralProbBody\" is not allowed. \"PositiveProbBody\" is not allowed. \"NegativeProbBody\" is not allowed. \"NeutralProbSubject\" is not allowed. \"PositiveProbSubject\" is not allowed. \"NegativeProbSubject\" is not allowed. \"Classification\" is not allowed. \"Sentiment\" is not allowed","timestamp":"2019-05-20T07:22:07.416Z"}
+{"level":"error","message":"Error occurred  \"LocalReceivedDate\" is not allowed. \"NeutralProbBody\" is not allowed. \"PositiveProbBody\" is not allowed. \"NegativeProbBody\" is not allowed. \"NeutralProbSubject\" is not allowed. \"PositiveProbSubject\" is not allowed. \"NegativeProbSubject\" is not allowed. \"Classification\" is not allowed. \"Sentiment\" is not allowed","timestamp":"2019-05-20T07:22:07.440Z"}
+{"level":"error","message":"Error occurred  \"LocalReceivedDate\" is not allowed. \"NeutralProbBody\" is not allowed. \"PositiveProbBody\" is not allowed. \"NegativeProbBody\" is not allowed. \"NeutralProbSubject\" is not allowed. \"PositiveProbSubject\" is not allowed. \"NegativeProbSubject\" is not allowed. \"Classification\" is not allowed. \"Sentiment\" is not allowed","timestamp":"2019-05-20T07:22:11.881Z"}
+{"level":"error","message":"Error occurred  \"LocalReceivedDate\" is not allowed. \"NeutralProbBody\" is not allowed. \"PositiveProbBody\" is not allowed. \"NegativeProbBody\" is not allowed. \"NeutralProbSubject\" is not allowed. \"PositiveProbSubject\" is not allowed. \"NegativeProbSubject\" is not allowed. \"Classification\" is not allowed. \"Sentiment\" is not allowed","timestamp":"2019-05-20T07:22:11.903Z"}
+{"level":"error","message":"Error occurred  \"LocalReceivedDate\" is not allowed. \"NeutralProbBody\" is not allowed. \"PositiveProbBody\" is not allowed. \"NegativeProbBody\" is not allowed. \"NeutralProbSubject\" is not allowed. \"PositiveProbSubject\" is not allowed. \"NegativeProbSubject\" is not allowed. \"Classification\" is not allowed. \"Sentiment\" is not allowed","timestamp":"2019-05-20T07:22:11.933Z"}
+{"level":"error","message":"Error occurred  \"LocalReceivedDate\" is not allowed. \"NeutralProbBody\" is not allowed. \"PositiveProbBody\" is not allowed. \"NegativeProbBody\" is not allowed. \"NeutralProbSubject\" is not allowed. \"PositiveProbSubject\" is not allowed. \"NegativeProbSubject\" is not allowed. \"Classification\" is not allowed. \"Sentiment\" is not allowed","timestamp":"2019-05-20T07:22:11.958Z"}
+{"level":"error","message":"Error occurred  \"LocalReceivedDate\" is not allowed. \"NeutralProbBody\" is not allowed. \"PositiveProbBody\" is not allowed. \"NegativeProbBody\" is not allowed. \"NeutralProbSubject\" is not allowed. \"PositiveProbSubject\" is not allowed. \"NegativeProbSubject\" is not allowed. \"Classification\" is not allowed. \"Sentiment\" is not allowed","timestamp":"2019-05-20T07:22:11.990Z"}
+{"level":"error","message":"Error occurred  \"LocalReceivedDate\" is not allowed. \"NeutralProbBody\" is not allowed. \"PositiveProbBody\" is not allowed. \"NegativeProbBody\" is not allowed. \"NeutralProbSubject\" is not allowed. \"PositiveProbSubject\" is not allowed. \"NegativeProbSubject\" is not allowed. \"Classification\" is not allowed. \"Sentiment\" is not allowed","timestamp":"2019-05-20T07:22:12.019Z"}
+{"level":"error","message":"Error occurred  \"LocalReceivedDate\" is not allowed. \"NeutralProbBody\" is not allowed. \"PositiveProbBody\" is not allowed. \"NegativeProbBody\" is not allowed. \"NeutralProbSubject\" is not allowed. \"PositiveProbSubject\" is not allowed. \"NegativeProbSubject\" is not allowed. \"Classification\" is not allowed. \"Sentiment\" is not allowed","timestamp":"2019-05-20T07:22:12.042Z"}
+{"level":"error","message":"Error occurred  \"LocalReceivedDate\" is not allowed. \"NeutralProbBody\" is not allowed. \"PositiveProbBody\" is not allowed. \"NegativeProbBody\" is not allowed. \"NeutralProbSubject\" is not allowed. \"PositiveProbSubject\" is not allowed. \"NegativeProbSubject\" is not allowed. \"Classification\" is not allowed. \"Sentiment\" is not allowed","timestamp":"2019-05-20T07:22:12.066Z"}
+{"level":"error","message":"Error occurred  \"LocalReceivedDate\" is not allowed. \"NeutralProbBody\" is not allowed. \"PositiveProbBody\" is not allowed. \"NegativeProbBody\" is not allowed. \"NeutralProbSubject\" is not allowed. \"PositiveProbSubject\" is not allowed. \"NegativeProbSubject\" is not allowed. \"Classification\" is not allowed. \"Sentiment\" is not allowed","timestamp":"2019-05-20T07:22:12.096Z"}
+{"level":"error","message":"Error occurred  \"LocalReceivedDate\" is not allowed. \"NeutralProbBody\" is not allowed. \"PositiveProbBody\" is not allowed. \"NegativeProbBody\" is not allowed. \"NeutralProbSubject\" is not allowed. \"PositiveProbSubject\" is not allowed. \"NegativeProbSubject\" is not allowed. \"Classification\" is not allowed. \"Sentiment\" is not allowed","timestamp":"2019-05-20T07:22:12.126Z"}
+{"level":"error","message":"Error occurred  \"LocalReceivedDate\" is not allowed. \"NeutralProbBody\" is not allowed. \"PositiveProbBody\" is not allowed. \"NegativeProbBody\" is not allowed. \"NeutralProbSubject\" is not allowed. \"PositiveProbSubject\" is not allowed. \"NegativeProbSubject\" is not allowed. \"Classification\" is not allowed. \"Sentiment\" is not allowed","timestamp":"2019-05-20T07:22:12.154Z"}
+{"level":"error","message":"Error occurred  \"LocalReceivedDate\" is not allowed. \"NeutralProbBody\" is not allowed. \"PositiveProbBody\" is not allowed. \"NegativeProbBody\" is not allowed. \"NeutralProbSubject\" is not allowed. \"PositiveProbSubject\" is not allowed. \"NegativeProbSubject\" is not allowed. \"Classification\" is not allowed. \"Sentiment\" is not allowed","timestamp":"2019-05-20T07:22:12.180Z"}
+{"level":"error","message":"Error occurred  \"LocalReceivedDate\" is not allowed. \"NeutralProbBody\" is not allowed. \"PositiveProbBody\" is not allowed. \"NegativeProbBody\" is not allowed. \"NeutralProbSubject\" is not allowed. \"PositiveProbSubject\" is not allowed. \"NegativeProbSubject\" is not allowed. \"Classification\" is not allowed. \"Sentiment\" is not allowed","timestamp":"2019-05-20T07:22:12.208Z"}
+{"level":"error","message":"Error occurred  \"LocalReceivedDate\" is not allowed. \"NeutralProbBody\" is not allowed. \"PositiveProbBody\" is not allowed. \"NegativeProbBody\" is not allowed. \"NeutralProbSubject\" is not allowed. \"PositiveProbSubject\" is not allowed. \"NegativeProbSubject\" is not allowed. \"Classification\" is not allowed. \"Sentiment\" is not allowed","timestamp":"2019-05-20T07:22:12.235Z"}
+{"level":"error","message":"Error occurred  \"LocalReceivedDate\" is not allowed. \"NeutralProbBody\" is not allowed. \"PositiveProbBody\" is not allowed. \"NegativeProbBody\" is not allowed. \"NeutralProbSubject\" is not allowed. \"PositiveProbSubject\" is not allowed. \"NegativeProbSubject\" is not allowed. \"Classification\" is not allowed. \"Sentiment\" is not allowed","timestamp":"2019-05-20T07:22:12.259Z"}
+{"level":"error","message":"Error occurred  \"LocalReceivedDate\" is not allowed. \"NeutralProbBody\" is not allowed. \"PositiveProbBody\" is not allowed. \"NegativeProbBody\" is not allowed. \"NeutralProbSubject\" is not allowed. \"PositiveProbSubject\" is not allowed. \"NegativeProbSubject\" is not allowed. \"Classification\" is not allowed. \"Sentiment\" is not allowed","timestamp":"2019-05-20T07:22:12.279Z"}
+{"level":"error","message":"Error occurred  \"LocalReceivedDate\" is not allowed. \"NeutralProbBody\" is not allowed. \"PositiveProbBody\" is not allowed. \"NegativeProbBody\" is not allowed. \"NeutralProbSubject\" is not allowed. \"PositiveProbSubject\" is not allowed. \"NegativeProbSubject\" is not allowed. \"Classification\" is not allowed. \"Sentiment\" is not allowed","timestamp":"2019-05-20T07:22:12.312Z"}
+{"level":"error","message":"Error occurred  \"LocalReceivedDate\" is not allowed. \"NeutralProbBody\" is not allowed. \"PositiveProbBody\" is not allowed. \"NegativeProbBody\" is not allowed. \"NeutralProbSubject\" is not allowed. \"PositiveProbSubject\" is not allowed. \"NegativeProbSubject\" is not allowed. \"Classification\" is not allowed. \"Sentiment\" is not allowed","timestamp":"2019-05-20T07:22:12.343Z"}
+{"level":"error","message":"Error occurred  \"LocalReceivedDate\" is not allowed. \"NeutralProbBody\" is not allowed. \"PositiveProbBody\" is not allowed. \"NegativeProbBody\" is not allowed. \"NeutralProbSubject\" is not allowed. \"PositiveProbSubject\" is not allowed. \"NegativeProbSubject\" is not allowed. \"Classification\" is not allowed. \"Sentiment\" is not allowed","timestamp":"2019-05-20T07:22:12.362Z"}
+{"level":"error","message":"Error occurred  \"LocalReceivedDate\" is not allowed. \"NeutralProbBody\" is not allowed. \"PositiveProbBody\" is not allowed. \"NegativeProbBody\" is not allowed. \"NeutralProbSubject\" is not allowed. \"PositiveProbSubject\" is not allowed. \"NegativeProbSubject\" is not allowed. \"Classification\" is not allowed. \"Sentiment\" is not allowed","timestamp":"2019-05-20T07:22:12.386Z"}
+{"level":"error","message":"Error occurred  \"LocalReceivedDate\" is not allowed. \"NeutralProbBody\" is not allowed. \"PositiveProbBody\" is not allowed. \"NegativeProbBody\" is not allowed. \"NeutralProbSubject\" is not allowed. \"PositiveProbSubject\" is not allowed. \"NegativeProbSubject\" is not allowed. \"Classification\" is not allowed. \"Sentiment\" is not allowed","timestamp":"2019-05-20T07:22:12.414Z"}
+{"level":"error","message":"Error occurred  \"LocalReceivedDate\" is not allowed. \"NeutralProbBody\" is not allowed. \"PositiveProbBody\" is not allowed. \"NegativeProbBody\" is not allowed. \"NeutralProbSubject\" is not allowed. \"PositiveProbSubject\" is not allowed. \"NegativeProbSubject\" is not allowed. \"Classification\" is not allowed. \"Sentiment\" is not allowed","timestamp":"2019-05-20T07:22:12.434Z"}
+{"level":"error","message":"Error occurred  \"LocalReceivedDate\" is not allowed. \"NeutralProbBody\" is not allowed. \"PositiveProbBody\" is not allowed. \"NegativeProbBody\" is not allowed. \"NeutralProbSubject\" is not allowed. \"PositiveProbSubject\" is not allowed. \"NegativeProbSubject\" is not allowed. \"Classification\" is not allowed. \"Sentiment\" is not allowed","timestamp":"2019-05-20T07:22:12.462Z"}
+{"level":"error","message":"Error occurred  \"LocalReceivedDate\" is not allowed. \"NeutralProbBody\" is not allowed. \"PositiveProbBody\" is not allowed. \"NegativeProbBody\" is not allowed. \"NeutralProbSubject\" is not allowed. \"PositiveProbSubject\" is not allowed. \"NegativeProbSubject\" is not allowed. \"Classification\" is not allowed. \"Sentiment\" is not allowed","timestamp":"2019-05-20T07:22:12.487Z"}
+{"level":"error","message":"Error occurred  \"LocalReceivedDate\" is not allowed. \"NeutralProbBody\" is not allowed. \"PositiveProbBody\" is not allowed. \"NegativeProbBody\" is not allowed. \"NeutralProbSubject\" is not allowed. \"PositiveProbSubject\" is not allowed. \"NegativeProbSubject\" is not allowed. \"Classification\" is not allowed. \"Sentiment\" is not allowed","timestamp":"2019-05-20T07:22:12.517Z"}
+{"level":"error","message":"Error occurred  \"LocalReceivedDate\" is not allowed. \"NeutralProbBody\" is not allowed. \"PositiveProbBody\" is not allowed. \"NegativeProbBody\" is not allowed. \"NeutralProbSubject\" is not allowed. \"PositiveProbSubject\" is not allowed. \"NegativeProbSubject\" is not allowed. \"Classification\" is not allowed. \"Sentiment\" is not allowed","timestamp":"2019-05-20T07:22:12.539Z"}
+{"level":"error","message":"Error occurred  \"LocalReceivedDate\" is not allowed. \"NeutralProbBody\" is not allowed. \"PositiveProbBody\" is not allowed. \"NegativeProbBody\" is not allowed. \"NeutralProbSubject\" is not allowed. \"PositiveProbSubject\" is not allowed. \"NegativeProbSubject\" is not allowed. \"Classification\" is not allowed. \"Sentiment\" is not allowed","timestamp":"2019-05-20T07:22:12.565Z"}
+{"level":"error","message":"Error occurred  \"LocalReceivedDate\" is not allowed. \"NeutralProbBody\" is not allowed. \"PositiveProbBody\" is not allowed. \"NegativeProbBody\" is not allowed. \"NeutralProbSubject\" is not allowed. \"PositiveProbSubject\" is not allowed. \"NegativeProbSubject\" is not allowed. \"Classification\" is not allowed. \"Sentiment\" is not allowed","timestamp":"2019-05-20T07:22:12.608Z"}
+{"level":"error","message":"Error occurred  \"LocalReceivedDate\" is not allowed. \"NeutralProbBody\" is not allowed. \"PositiveProbBody\" is not allowed. \"NegativeProbBody\" is not allowed. \"NeutralProbSubject\" is not allowed. \"PositiveProbSubject\" is not allowed. \"NegativeProbSubject\" is not allowed. \"Classification\" is not allowed. \"Sentiment\" is not allowed","timestamp":"2019-05-20T07:22:12.640Z"}
+{"level":"error","message":"Error occurred  \"LocalReceivedDate\" is not allowed. \"NeutralProbBody\" is not allowed. \"PositiveProbBody\" is not allowed. \"NegativeProbBody\" is not allowed. \"NeutralProbSubject\" is not allowed. \"PositiveProbSubject\" is not allowed. \"NegativeProbSubject\" is not allowed. \"Classification\" is not allowed. \"Sentiment\" is not allowed","timestamp":"2019-05-20T07:22:12.665Z"}
+{"level":"error","message":"Error occurred  \"LocalReceivedDate\" is not allowed. \"NeutralProbBody\" is not allowed. \"PositiveProbBody\" is not allowed. \"NegativeProbBody\" is not allowed. \"NeutralProbSubject\" is not allowed. \"PositiveProbSubject\" is not allowed. \"NegativeProbSubject\" is not allowed. \"Classification\" is not allowed. \"Sentiment\" is not allowed","timestamp":"2019-05-20T07:22:12.692Z"}
+{"level":"error","message":"Error occurred  \"LocalReceivedDate\" is not allowed. \"NeutralProbBody\" is not allowed. \"PositiveProbBody\" is not allowed. \"NegativeProbBody\" is not allowed. \"NeutralProbSubject\" is not allowed. \"PositiveProbSubject\" is not allowed. \"NegativeProbSubject\" is not allowed. \"Classification\" is not allowed. \"Sentiment\" is not allowed","timestamp":"2019-05-20T07:22:12.718Z"}
+{"level":"error","message":"Error occurred  \"LocalReceivedDate\" is not allowed. \"NeutralProbBody\" is not allowed. \"PositiveProbBody\" is not allowed. \"NegativeProbBody\" is not allowed. \"NeutralProbSubject\" is not allowed. \"PositiveProbSubject\" is not allowed. \"NegativeProbSubject\" is not allowed. \"Classification\" is not allowed. \"Sentiment\" is not allowed","timestamp":"2019-05-20T07:22:12.740Z"}
+{"level":"error","message":"Error occurred  \"LocalReceivedDate\" is not allowed. \"NeutralProbBody\" is not allowed. \"PositiveProbBody\" is not allowed. \"NegativeProbBody\" is not allowed. \"NeutralProbSubject\" is not allowed. \"PositiveProbSubject\" is not allowed. \"NegativeProbSubject\" is not allowed. \"Classification\" is not allowed. \"Sentiment\" is not allowed","timestamp":"2019-05-20T07:22:12.763Z"}
+{"level":"error","message":"Error occurred  \"LocalReceivedDate\" is not allowed. \"NeutralProbBody\" is not allowed. \"PositiveProbBody\" is not allowed. \"NegativeProbBody\" is not allowed. \"NeutralProbSubject\" is not allowed. \"PositiveProbSubject\" is not allowed. \"NegativeProbSubject\" is not allowed. \"Classification\" is not allowed. \"Sentiment\" is not allowed","timestamp":"2019-05-20T07:22:12.788Z"}
+{"level":"error","message":"Error occurred  \"LocalReceivedDate\" is not allowed. \"NeutralProbBody\" is not allowed. \"PositiveProbBody\" is not allowed. \"NegativeProbBody\" is not allowed. \"NeutralProbSubject\" is not allowed. \"PositiveProbSubject\" is not allowed. \"NegativeProbSubject\" is not allowed. \"Classification\" is not allowed. \"Sentiment\" is not allowed","timestamp":"2019-05-20T07:22:14.226Z"}
+{"level":"error","message":"Error occurred  \"LocalReceivedDate\" is not allowed. \"NeutralProbBody\" is not allowed. \"PositiveProbBody\" is not allowed. \"NegativeProbBody\" is not allowed. \"NeutralProbSubject\" is not allowed. \"PositiveProbSubject\" is not allowed. \"NegativeProbSubject\" is not allowed. \"Classification\" is not allowed. \"Sentiment\" is not allowed","timestamp":"2019-05-20T07:22:14.245Z"}
+{"level":"error","message":"Error occurred  \"LocalReceivedDate\" is not allowed. \"NeutralProbBody\" is not allowed. \"PositiveProbBody\" is not allowed. \"NegativeProbBody\" is not allowed. \"NeutralProbSubject\" is not allowed. \"PositiveProbSubject\" is not allowed. \"NegativeProbSubject\" is not allowed. \"Classification\" is not allowed. \"Sentiment\" is not allowed","timestamp":"2019-05-20T07:22:14.262Z"}
+{"level":"error","message":"Error occurred  \"LocalReceivedDate\" is not allowed. \"NeutralProbBody\" is not allowed. \"PositiveProbBody\" is not allowed. \"NegativeProbBody\" is not allowed. \"NeutralProbSubject\" is not allowed. \"PositiveProbSubject\" is not allowed. \"NegativeProbSubject\" is not allowed. \"Classification\" is not allowed. \"Sentiment\" is not allowed","timestamp":"2019-05-20T07:22:14.284Z"}
+{"level":"error","message":"Error occurred  \"LocalReceivedDate\" is not allowed. \"NeutralProbBody\" is not allowed. \"PositiveProbBody\" is not allowed. \"NegativeProbBody\" is not allowed. \"NeutralProbSubject\" is not allowed. \"PositiveProbSubject\" is not allowed. \"NegativeProbSubject\" is not allowed. \"Classification\" is not allowed. \"Sentiment\" is not allowed","timestamp":"2019-05-20T07:22:14.308Z"}
+{"level":"info","message":"Server started at port 5000.","timestamp":"2019-05-20T07:23:03.306Z"}
+{"level":"info","message":"Connected to database successfully.","timestamp":"2019-05-20T07:23:03.355Z"}
+{"level":"info","message":"Server started at port 5000.","timestamp":"2019-05-20T09:53:06.395Z"}
+{"level":"info","message":"Connected to database successfully.","timestamp":"2019-05-20T09:53:06.443Z"}
+{"level":"error","message":"Internal server error Conversion failed when converting date and/or time from character string.","timestamp":"2019-05-20T09:54:28.374Z"}
+{"level":"error","message":"Internal server error Conversion failed when converting date and/or time from character string.","timestamp":"2019-05-20T09:54:28.410Z"}
+{"level":"error","message":"Internal server error Conversion failed when converting date and/or time from character string.","timestamp":"2019-05-20T09:54:28.444Z"}
+{"level":"error","message":"Internal server error Conversion failed when converting date and/or time from character string.","timestamp":"2019-05-20T09:54:28.497Z"}
+{"level":"error","message":"Internal server error Conversion failed when converting date and/or time from character string.","timestamp":"2019-05-20T09:54:28.531Z"}
+{"level":"error","message":"Internal server error Conversion failed when converting date and/or time from character string.","timestamp":"2019-05-20T09:54:28.566Z"}
+{"level":"error","message":"Internal server error Conversion failed when converting date and/or time from character string.","timestamp":"2019-05-20T09:54:28.607Z"}
+{"level":"error","message":"Internal server error Conversion failed when converting date and/or time from character string.","timestamp":"2019-05-20T09:54:32.873Z"}
+{"level":"error","message":"Internal server error Conversion failed when converting date and/or time from character string.","timestamp":"2019-05-20T09:54:32.912Z"}
+{"level":"error","message":"Internal server error Conversion failed when converting date and/or time from character string.","timestamp":"2019-05-20T09:54:32.952Z"}
+{"level":"error","message":"Internal server error Conversion failed when converting date and/or time from character string.","timestamp":"2019-05-20T09:54:32.992Z"}
+{"level":"error","message":"Internal server error Conversion failed when converting date and/or time from character string.","timestamp":"2019-05-20T09:54:33.028Z"}
+{"level":"error","message":"Internal server error Conversion failed when converting date and/or time from character string.","timestamp":"2019-05-20T09:54:33.065Z"}
+{"level":"error","message":"Internal server error Conversion failed when converting date and/or time from character string.","timestamp":"2019-05-20T09:54:33.102Z"}
+{"level":"error","message":"Internal server error Conversion failed when converting date and/or time from character string.","timestamp":"2019-05-20T09:54:33.140Z"}
+{"level":"error","message":"Internal server error Conversion failed when converting date and/or time from character string.","timestamp":"2019-05-20T09:54:33.180Z"}
+{"level":"error","message":"Internal server error Conversion failed when converting date and/or time from character string.","timestamp":"2019-05-20T09:54:33.219Z"}
+{"level":"error","message":"Internal server error Conversion failed when converting date and/or time from character string.","timestamp":"2019-05-20T09:54:33.252Z"}
+{"level":"error","message":"Internal server error Conversion failed when converting date and/or time from character string.","timestamp":"2019-05-20T09:54:33.288Z"}
+{"level":"error","message":"Internal server error Conversion failed when converting date and/or time from character string.","timestamp":"2019-05-20T09:54:33.331Z"}
+{"level":"error","message":"Internal server error Conversion failed when converting date and/or time from character string.","timestamp":"2019-05-20T09:54:33.367Z"}
+{"level":"error","message":"Internal server error Conversion failed when converting date and/or time from character string.","timestamp":"2019-05-20T09:54:33.406Z"}
+{"level":"error","message":"Internal server error Conversion failed when converting date and/or time from character string.","timestamp":"2019-05-20T09:54:33.439Z"}
+{"level":"error","message":"Internal server error Conversion failed when converting date and/or time from character string.","timestamp":"2019-05-20T09:54:33.484Z"}
+{"level":"error","message":"Internal server error Conversion failed when converting date and/or time from character string.","timestamp":"2019-05-20T09:54:33.526Z"}
+{"level":"error","message":"Internal server error Conversion failed when converting date and/or time from character string.","timestamp":"2019-05-20T09:54:33.567Z"}
+{"level":"error","message":"Internal server error Conversion failed when converting date and/or time from character string.","timestamp":"2019-05-20T09:54:33.606Z"}
+{"level":"error","message":"Internal server error Conversion failed when converting date and/or time from character string.","timestamp":"2019-05-20T09:54:33.649Z"}
+{"level":"error","message":"Internal server error Conversion failed when converting date and/or time from character string.","timestamp":"2019-05-20T09:54:33.685Z"}
+{"level":"error","message":"Internal server error Conversion failed when converting date and/or time from character string.","timestamp":"2019-05-20T09:54:33.724Z"}
+{"level":"error","message":"Internal server error Conversion failed when converting date and/or time from character string.","timestamp":"2019-05-20T09:54:33.761Z"}
+{"level":"error","message":"Internal server error Conversion failed when converting date and/or time from character string.","timestamp":"2019-05-20T09:54:33.797Z"}
+{"level":"error","message":"Internal server error Conversion failed when converting date and/or time from character string.","timestamp":"2019-05-20T09:54:33.851Z"}
+{"level":"error","message":"Internal server error Conversion failed when converting date and/or time from character string.","timestamp":"2019-05-20T09:54:33.919Z"}
+{"level":"error","message":"Internal server error Conversion failed when converting date and/or time from character string.","timestamp":"2019-05-20T09:54:33.958Z"}
+{"level":"error","message":"Internal server error Conversion failed when converting date and/or time from character string.","timestamp":"2019-05-20T09:54:33.991Z"}
+{"level":"error","message":"Internal server error Conversion failed when converting date and/or time from character string.","timestamp":"2019-05-20T09:54:34.026Z"}
+{"level":"error","message":"Internal server error Conversion failed when converting date and/or time from character string.","timestamp":"2019-05-20T09:54:34.061Z"}
+{"level":"error","message":"Internal server error Conversion failed when converting date and/or time from character string.","timestamp":"2019-05-20T09:54:34.098Z"}
+{"level":"error","message":"Internal server error Conversion failed when converting date and/or time from character string.","timestamp":"2019-05-20T09:54:34.133Z"}
+{"level":"error","message":"Internal server error Conversion failed when converting date and/or time from character string.","timestamp":"2019-05-20T09:54:34.169Z"}
+{"level":"error","message":"Internal server error Conversion failed when converting date and/or time from character string.","timestamp":"2019-05-20T09:54:34.204Z"}
+{"level":"error","message":"Internal server error Conversion failed when converting date and/or time from character string.","timestamp":"2019-05-20T09:54:36.649Z"}
+{"level":"error","message":"Internal server error Conversion failed when converting date and/or time from character string.","timestamp":"2019-05-20T09:54:36.681Z"}
+{"level":"error","message":"Internal server error Conversion failed when converting date and/or time from character string.","timestamp":"2019-05-20T09:54:36.727Z"}
+{"level":"error","message":"Internal server error Conversion failed when converting date and/or time from character string.","timestamp":"2019-05-20T09:54:36.762Z"}
+{"level":"error","message":"Internal server error Conversion failed when converting date and/or time from character string.","timestamp":"2019-05-20T09:54:36.793Z"}
+{"level":"info","message":"Server started at port 5000.","timestamp":"2019-05-20T09:56:06.411Z"}
+{"level":"info","message":"Connected to database successfully.","timestamp":"2019-05-20T09:56:06.460Z"}
+{"level":"info","message":"Server started at port 5000.","timestamp":"2019-05-20T10:09:22.321Z"}
+{"level":"info","message":"Connected to database successfully.","timestamp":"2019-05-20T10:09:22.400Z"}
+{"level":"info","message":"Server started at port 5000.","timestamp":"2019-05-20T10:50:26.803Z"}
+{"level":"info","message":"Connected to database successfully.","timestamp":"2019-05-20T10:50:26.852Z"}
+{"level":"info","message":"Server started at port 5000.","timestamp":"2019-05-20T11:13:19.169Z"}
+{"level":"info","message":"Connected to database successfully.","timestamp":"2019-05-20T11:13:19.224Z"}
+{"level":"info","message":"Server started at port 5000.","timestamp":"2019-05-20T12:04:09.569Z"}
+{"level":"info","message":"Connected to database successfully.","timestamp":"2019-05-20T12:04:09.620Z"}
+{"level":"error","message":"Internal server error Incorrect syntax near '0.056027956'.","timestamp":"2019-05-20T12:06:39.727Z"}
+{"level":"error","message":"Internal server error Incorrect syntax near '0.027649056'.","timestamp":"2019-05-20T12:06:39.742Z"}
+{"level":"error","message":"Internal server error Incorrect syntax near '0.09700029'.","timestamp":"2019-05-20T12:06:39.757Z"}
+{"level":"error","message":"Internal server error Incorrect syntax near '0.10978346'.","timestamp":"2019-05-20T12:06:39.775Z"}
+{"level":"error","message":"Internal server error Incorrect syntax near '0.10131599'.","timestamp":"2019-05-20T12:06:39.794Z"}
+{"level":"error","message":"Internal server error Incorrect syntax near '0.1564441'.","timestamp":"2019-05-20T12:06:39.808Z"}
+{"level":"error","message":"Internal server error Incorrect syntax near '0.1178215'.","timestamp":"2019-05-20T12:06:39.823Z"}
+{"level":"error","message":"Internal server error Incorrect syntax near '0.15600276'.","timestamp":"2019-05-20T12:06:39.836Z"}
+{"level":"error","message":"Internal server error Incorrect syntax near '0.06039334'.","timestamp":"2019-05-20T12:06:39.850Z"}
+{"level":"error","message":"Internal server error Incorrect syntax near '0.07437914'.","timestamp":"2019-05-20T12:06:39.863Z"}
+{"level":"error","message":"Internal server error Incorrect syntax near '0.10131599'.","timestamp":"2019-05-20T12:06:39.876Z"}
+{"level":"error","message":"Internal server error Incorrect syntax near '0.033850484'.","timestamp":"2019-05-20T12:06:39.890Z"}
+{"level":"error","message":"Internal server error Incorrect syntax near '0.13088615'.","timestamp":"2019-05-20T12:06:39.906Z"}
+{"level":"error","message":"Internal server error Incorrect syntax near '0.0042435187'.","timestamp":"2019-05-20T12:06:39.919Z"}
+{"level":"error","message":"Internal server error Incorrect syntax near '0.29557654'.","timestamp":"2019-05-20T12:06:39.938Z"}
+{"level":"error","message":"Internal server error Incorrect syntax near '0.2814465'.","timestamp":"2019-05-20T12:06:39.955Z"}
+{"level":"error","message":"Internal server error Incorrect syntax near '0.10131599'.","timestamp":"2019-05-20T12:06:39.967Z"}
+{"level":"error","message":"Internal server error Incorrect syntax near '0.10000943'.","timestamp":"2019-05-20T12:06:39.982Z"}
+{"level":"error","message":"Internal server error Incorrect syntax near '0.06273678'.","timestamp":"2019-05-20T12:06:39.996Z"}
+{"level":"error","message":"Internal server error Incorrect syntax near '0.13949455'.","timestamp":"2019-05-20T12:06:40.009Z"}
+{"level":"error","message":"Internal server error Incorrect syntax near '0.0073762327'.","timestamp":"2019-05-20T12:06:40.024Z"}
+{"level":"error","message":"Internal server error Incorrect syntax near '0.014858956'.","timestamp":"2019-05-20T12:06:40.037Z"}
+{"level":"error","message":"Internal server error Incorrect syntax near '0.09704059'.","timestamp":"2019-05-20T12:06:40.052Z"}
+{"level":"error","message":"Internal server error Incorrect syntax near '0.0767691'.","timestamp":"2019-05-20T12:06:40.066Z"}
+{"level":"error","message":"Internal server error Incorrect syntax near '0.4414626'.","timestamp":"2019-05-20T12:06:40.082Z"}
+{"level":"error","message":"Internal server error Incorrect syntax near '0.40053847'.","timestamp":"2019-05-20T12:06:40.096Z"}
+{"level":"info","message":"Server started at port 5000.","timestamp":"2019-05-20T12:07:20.594Z"}
+{"level":"info","message":"Connected to database successfully.","timestamp":"2019-05-20T12:07:20.643Z"}
+{"level":"error","message":"Internal server error Incorrect syntax near ')'.","timestamp":"2019-05-20T12:07:42.609Z"}
+{"level":"error","message":"Internal server error Incorrect syntax near ')'.","timestamp":"2019-05-20T12:07:42.626Z"}
+{"level":"error","message":"Internal server error Incorrect syntax near ')'.","timestamp":"2019-05-20T12:07:42.641Z"}
+{"level":"error","message":"Internal server error Incorrect syntax near ')'.","timestamp":"2019-05-20T12:07:42.655Z"}
+{"level":"error","message":"Internal server error Incorrect syntax near ')'.","timestamp":"2019-05-20T12:07:42.668Z"}
+{"level":"error","message":"Internal server error Incorrect syntax near ')'.","timestamp":"2019-05-20T12:07:42.682Z"}
+{"level":"error","message":"Internal server error Incorrect syntax near ')'.","timestamp":"2019-05-20T12:07:42.695Z"}
+{"level":"error","message":"Internal server error Incorrect syntax near ')'.","timestamp":"2019-05-20T12:07:42.709Z"}
+{"level":"error","message":"Internal server error Incorrect syntax near ')'.","timestamp":"2019-05-20T12:07:42.725Z"}
+{"level":"error","message":"Internal server error Incorrect syntax near ')'.","timestamp":"2019-05-20T12:07:42.738Z"}
+{"level":"error","message":"Internal server error Incorrect syntax near ')'.","timestamp":"2019-05-20T12:07:42.751Z"}
+{"level":"error","message":"Internal server error Incorrect syntax near ')'.","timestamp":"2019-05-20T12:07:42.765Z"}
+{"level":"error","message":"Internal server error Incorrect syntax near ')'.","timestamp":"2019-05-20T12:07:42.783Z"}
+{"level":"error","message":"Internal server error Incorrect syntax near ')'.","timestamp":"2019-05-20T12:07:42.796Z"}
+{"level":"error","message":"Internal server error Incorrect syntax near ')'.","timestamp":"2019-05-20T12:07:42.815Z"}
+{"level":"error","message":"Internal server error Incorrect syntax near ')'.","timestamp":"2019-05-20T12:07:42.830Z"}
+{"level":"error","message":"Internal server error Incorrect syntax near ')'.","timestamp":"2019-05-20T12:07:42.845Z"}
+{"level":"error","message":"Internal server error Incorrect syntax near ')'.","timestamp":"2019-05-20T12:07:42.860Z"}
+{"level":"error","message":"Internal server error Incorrect syntax near ')'.","timestamp":"2019-05-20T12:07:42.872Z"}
+{"level":"error","message":"Internal server error Incorrect syntax near ')'.","timestamp":"2019-05-20T12:07:42.885Z"}
+{"level":"error","message":"Internal server error Incorrect syntax near ')'.","timestamp":"2019-05-20T12:07:42.901Z"}
+{"level":"error","message":"Internal server error Incorrect syntax near ')'.","timestamp":"2019-05-20T12:07:42.914Z"}
+{"level":"error","message":"Internal server error Incorrect syntax near ')'.","timestamp":"2019-05-20T12:07:42.930Z"}
+{"level":"error","message":"Internal server error Incorrect syntax near ')'.","timestamp":"2019-05-20T12:07:42.943Z"}
+{"level":"error","message":"Internal server error Incorrect syntax near ')'.","timestamp":"2019-05-20T12:07:42.957Z"}
+{"level":"error","message":"Internal server error Incorrect syntax near ')'.","timestamp":"2019-05-20T12:07:42.970Z"}
+{"level":"info","message":"Server started at port 5000.","timestamp":"2019-05-20T12:08:31.474Z"}
+{"level":"info","message":"Connected to database successfully.","timestamp":"2019-05-20T12:08:31.537Z"}
+{"level":"info","message":"Server started at port 5000.","timestamp":"2019-05-20T12:48:31.540Z"}
+{"level":"info","message":"Connected to database successfully.","timestamp":"2019-05-20T12:48:31.607Z"}
+{"level":"info","message":"Server started at port 5000.","timestamp":"2019-05-20T12:49:11.580Z"}
+{"level":"info","message":"Connected to database successfully.","timestamp":"2019-05-20T12:49:11.653Z"}
+{"level":"info","message":"Server started at port 5000.","timestamp":"2019-05-20T12:50:37.724Z"}
+{"level":"info","message":"Connected to database successfully.","timestamp":"2019-05-20T12:50:37.791Z"}
+{"level":"info","message":"Server started at port 5000.","timestamp":"2019-05-20T13:00:57.952Z"}
+{"level":"info","message":"Connected to database successfully.","timestamp":"2019-05-20T13:00:58.002Z"}
+{"level":"info","message":"Server started at port 5000.","timestamp":"2019-05-20T13:02:55.660Z"}
+{"level":"info","message":"Connected to database successfully.","timestamp":"2019-05-20T13:02:55.732Z"}
+{"level":"info","message":"Server started at port 5000.","timestamp":"2019-05-20T13:03:17.653Z"}
+{"level":"info","message":"Connected to database successfully.","timestamp":"2019-05-20T13:03:17.705Z"}
+{"level":"error","message":"Internal server error Unclosed quotation mark after the character string ')'.","timestamp":"2019-05-20T13:12:52.552Z"}
+{"level":"error","message":"Internal server error Unclosed quotation mark after the character string ')'.","timestamp":"2019-05-20T13:13:06.304Z"}
+{"level":"error","message":"Internal server error Unclosed quotation mark after the character string ')'.","timestamp":"2019-05-20T13:13:15.539Z"}
+{"level":"info","message":"Server started at port 5000.","timestamp":"2019-05-20T13:21:53.865Z"}
+{"level":"info","message":"Connected to database successfully.","timestamp":"2019-05-20T13:21:53.921Z"}
