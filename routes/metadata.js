@@ -11,6 +11,7 @@ var jsonexport = require("jsonexport");
 var azure = require("azure-storage");
 var accountInfo = require("../config/azureAccount.json");
 const { exec } = require('child_process');
+var shell = require('shelljs');
 
 router.post("/", async (req, res) => {
   const { error } = validate(req.body);
@@ -146,22 +147,11 @@ router.post("/test", async (req, res) => {
   res.status(201).send(response.data);
 });
 router.get("/testscheduler",async(req,res)=>{
-  exec('python D:/Spyder/Enterceptor/Channels/Scheduler.py 1', (err, stdout, stderr) => {
-    if (err) {
-      // node couldn't execute the command
-      console.log(`stdout: ${err}`);
-
-      return;
-    }
-    if (stderr) {
-      // node couldn't execute the command
-      console.log(`stdout: ${stderr}`);
-
-      return;
-    }
-    // the *entire* stdout and stderr (buffered)
-
-    console.log(`stdout: ${stdout}`);
+  shell.exec("D:/PythonInstallation/python.exe C:/Users/ismail.saiyyed/PycharmProjects/Enterceptor/Scheduler.py 1", function(code, stdout, stderr) {
+    if(code==-1)
+      res.status(500).send({'message':'Error occured'});
+    else if(code==0)
+      res.status(201).send('success');   
   });
 });
 
@@ -255,7 +245,7 @@ router.post("/TwitterSentimentData", async (req, res) => {
 
            '\''+ req.body.Classification +   '\''+ '' + 
                 ')' ; 
-   const pool = await poolPromise;
+    const pool = await poolPromise;
     const result = await pool.request().query(query);
     res.status(201).send('success');
        
@@ -361,7 +351,7 @@ router.post("/exchangeData", async (req, res) => {
   //   res.status(400).send(error.details[0].message);
   //   return;
   // }
-  console.log(req.body);
+  // console.log(req.body);
   // res.status(200).json({message:'Success'});
 
   let EmailBody = req.body.Body;
