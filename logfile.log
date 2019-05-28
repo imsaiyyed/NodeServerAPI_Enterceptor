@@ -2376,3 +2376,105 @@ level":"info","message":"Connected to database successfully.","timestamp":"2019-
 {"level":"info","message":"Connected to database successfully.","timestamp":"2019-05-21T10:52:52.747Z"}
 {"level":"info","message":"Server started at port 5000.","timestamp":"2019-05-21T11:17:28.003Z"}
 {"level":"info","message":"Connected to database successfully.","timestamp":"2019-05-21T11:17:28.055Z"}
+{"level":"info","message":"Server started at port 5000.","timestamp":"2019-05-22T04:49:10.108Z"}
+{"level":"info","message":"Connected to database successfully.","timestamp":"2019-05-22T04:49:10.170Z"}
+{"level":"info","message":"Server started at port 5000.","timestamp":"2019-05-22T05:58:43.379Z"}
+{"level":"info","message":"Connected to database successfully.","timestamp":"2019-05-22T05:58:43.446Z"}
+{"level":"info","message":"Server started at port 5000.","timestamp":"2019-05-22T08:39:34.271Z"}
+{"level":"info","message":"Connected to database successfully.","timestamp":"2019-05-22T08:39:34.320Z"}
+{"level":"info","message":"Server started at port 5000.","timestamp":"2019-05-22T08:42:12.948Z"}
+{"level":"info","message":"Connected to database successfully.","timestamp":"2019-05-22T08:42:12.996Z"}
+{"level":"info","message":"Server started at port 5000.","timestamp":"2019-05-22T11:58:30.961Z"}
+{"level":"info","message":"Connected to database successfully.","timestamp":"2019-05-22T11:58:31.010Z"}
+{"level":"info","message":"Server started at port 5000.","timestamp":"2019-05-22T11:58:54.281Z"}
+{"level":"info","message":"Connected to database successfully.","timestamp":"2019-05-22T11:58:54.334Z"}
+{"level":"error","message":"Internal server error There are more columns in the INSERT statement than values specified in the VALUES clause. The number of values in the VALUES clause must match the number of columns specified in the INSERT statement.","timestamp":"2019-05-22T12:00:09.800Z"}
+{"level":"error","message":"Internal server error Incorrect syntax near '.15643308097791836'.","timestamp":"2019-05-22T12:00:09.819Z"}
+{"level":"error","message":"Internal server error There are more columns in the INSERT statement than values specified in the VALUES clause. The number of values in the VALUES clause must match the number of columns specified in the INSERT statement.","timestamp":"2019-05-22T12:00:09.831Z"}
+{"level":"error","message":"Internal server error Incorrect syntax near '.675575191740577'.","timestamp":"2019-05-22T12:00:09.843Z"}
+{"level":"error","message":"Internal server error There are more columns in the INSERT statement than values specified in the VALUES clause. The number of values in the VALUES clause must match the number of columns specified in the INSERT statement.","timestamp":"2019-05-22T12:00:09.864Z"}
+{"level":"error","message":"Internal server error There are more columns in the INSERT statement than values specified in the VALUES clause. The number of values in the VALUES clause must match the number of columns specified in the INSERT statement.","timestamp":"2019-05-22T12:00:09.880Z"}
+{"level":"error","message":"Internal server error There are more columns in the INSERT statement than values specified in the VALUES clause. The number of values in the VALUES clause must match the number of columns specified in the INSERT statement.","timestamp":"2019-05-22T12:00:09.902Z"}
+{"level":"error","message":"Internal server error There are more columns in the INSERT statement than values specified in the VALUES clause. The number of values in the VALUES clause must match the number of columns specified in the INSERT statement.","timestamp":"2019-05-22T12:00:09.915Z"}
+{"level":"error","message":"Internal server error Incorrect syntax near '.09534070161375369'.","timestamp":"2019-05-22T12:00:09.927Z"}
+{"level":"error","message":"Internal server error There are more columns in the INSERT statement than values specified in the VALUES clause. The number of values in the VALUES clause must match the number of columns specified in the INSERT statement.","timestamp":"2019-05-22T12:00:09.939Z"}
+{"level":"error","message":"Internal server error There are more columns in the INSERT statement than values specified in the VALUES clause. The number of values in the VALUES clause must match the number of columns specified in the INSERT statement.","timestamp":"2019-05-22T12:00:09.953Z"}
+{"level":"error","message":"Internal server error There are more columns in the INSERT statement than values specified in the VALUES clause. The number of values in the VALUES clause must match the number of columns specified in the INSERT statement.","timestamp":"2019-05-22T12:00:09.966Z"}
+{"level":"error","message":"Internal server error There are more columns in the INSERT statement than values specified in the VALUES clause. The number of values in the VALUES clause must match the number of columns specified in the INSERT statement.","timestamp":"2019-05-22T12:00:10.007Z"}
+{"level":"error","message":"Internal server error Incorrect syntax near '.18392202666356522'.","timestamp":"2019-05-22T12:00:10.020Z"}
+{"level":"error","message":"Internal server error Incorrect syntax near '.32341088768899556'.","timestamp":"2019-05-22T12:00:10.032Z"}
+{"level":"error","message":"Internal server error There are more columns in the INSERT statement than values specified in the VALUES clause. The number of values in the VALUES clause must match the number of columns specified in the INSERT statement.","timestamp":"2019-05-22T12:00:10.048Z"}
+{"level":"error","message":"Internal server error There are more columns in the INSERT statement than values specified in the VALUES clause. The number of values in the VALUES clause must match the number of columns specified in the INSERT statement.","timestamp":"2019-05-22T12:00:10.060Z"}
+{"level":"error","message":"Internal server error There are more columns in the INSERT statement than values specified in the VALUES clause. The number of values in the VALUES clause must match the number of columns specified in the INSERT statement.","timestamp":"2019-05-22T12:00:10.074Z"}
+{"level":"error","message":"Internal server error There are more columns in the INSERT statement than values specified in the VALUES clause. The number of values in the VALUES clause must match the number of columns specified in the INSERT statement.","timestamp":"2019-05-22T12:00:10.085Z"}
+{"level":"error","message":"Internal server error There are more columns in the INSERT statement than values specified in the VALUES clause. The number of values in the VALUES clause must match the number of columns specified in the INSERT statement.","timestamp":"2019-05-22T12:00:10.099Z"}
+{"level":"error","message":"Internal server error Incorrect syntax near '.008493252864650996'.","timestamp":"2019-05-22T12:00:10.112Z"}
+{"level":"error","message":"Internal server error Incorrect syntax near '.1451699773067131'.","timestamp":"2019-05-22T12:00:10.124Z"}
+{"level":"error","message":"Internal server error There are more columns in the INSERT statement than values specified in the VALUES clause. The number of values in the VALUES clause must match the number of columns specified in the INSERT statement.","timestamp":"2019-05-22T12:00:10.137Z"}
+{"level":"error","message":"Internal server error There are more columns in the INSERT statement than values specified in the VALUES clause. The number of values in the VALUES clause must match the number of columns specified in the INSERT statement.","timestamp":"2019-05-22T12:00:10.148Z"}
+{"level":"error","message":"Internal server error There are more columns in the INSERT statement than values specified in the VALUES clause. The number of values in the VALUES clause must match the number of columns specified in the INSERT statement.","timestamp":"2019-05-22T12:00:10.163Z"}
+{"level":"error","message":"Internal server error Incorrect syntax near '.8566827785573672'.","timestamp":"2019-05-22T12:00:10.174Z"}
+{"level":"error","message":"Internal server error Incorrect syntax near '0'.","timestamp":"2019-05-22T12:00:11.500Z"}
+{"level":"error","message":"Internal server error Incorrect syntax near '0'.","timestamp":"2019-05-22T12:00:11.517Z"}
+{"level":"info","message":"Server started at port 5000.","timestamp":"2019-05-22T12:01:53.631Z"}
+{"level":"info","message":"Connected to database successfully.","timestamp":"2019-05-22T12:01:53.676Z"}
+{"level":"info","message":"Server started at port 5000.","timestamp":"2019-05-22T12:58:17.785Z"}
+{"level":"info","message":"Connected to database successfully.","timestamp":"2019-05-22T12:58:17.847Z"}
+{"level":"info","message":"Server started at port 5000.","timestamp":"2019-05-22T12:59:03.476Z"}
+{"level":"info","message":"Connected to database successfully.","timestamp":"2019-05-22T12:59:03.528Z"}
+{"level":"info","message":"Server started at port 5000.","timestamp":"2019-05-22T12:59:09.463Z"}
+{"level":"info","message":"Connected to database successfully.","timestamp":"2019-05-22T12:59:09.511Z"}
+{"level":"info","message":"Server started at port 5000.","timestamp":"2019-05-22T13:44:55.209Z"}
+{"level":"info","message":"Connected to database successfully.","timestamp":"2019-05-22T13:44:55.252Z"}
+{"level":"info","message":"Server started at port 5000.","timestamp":"2019-05-23T06:01:40.818Z"}
+{"level":"info","message":"Connected to database successfully.","timestamp":"2019-05-23T06:01:40.872Z"}
+{"level":"info","message":"Server started at port 5000.","timestamp":"2019-05-23T06:20:37.502Z"}
+{"level":"info","message":"Connected to database successfully.","timestamp":"2019-05-23T06:20:37.557Z"}
+{"level":"info","message":"Server started at port 5000.","timestamp":"2019-05-23T06:21:28.914Z"}
+{"level":"info","message":"Connected to database successfully.","timestamp":"2019-05-23T06:21:28.973Z"}
+{"level":"info","message":"Server started at port 5000.","timestamp":"2019-05-23T07:15:15.171Z"}
+{"level":"info","message":"Connected to database successfully.","timestamp":"2019-05-23T07:15:15.229Z"}
+{"level":"info","message":"Server started at port 5000.","timestamp":"2019-05-23T07:23:43.589Z"}
+{"level":"info","message":"Connected to database successfully.","timestamp":"2019-05-23T07:23:43.650Z"}
+{"level":"info","message":"Server started at port 5000.","timestamp":"2019-05-23T08:11:13.205Z"}
+{"level":"info","message":"Connected to database successfully.","timestamp":"2019-05-23T08:11:13.257Z"}
+{"level":"info","message":"Server started at port 5000.","timestamp":"2019-05-24T09:03:36.764Z"}
+{"level":"info","message":"Connected to database successfully.","timestamp":"2019-05-24T09:03:36.825Z"}
+{"level":"info","message":"Server started at port 5000.","timestamp":"2019-05-27T05:45:38.803Z"}
+{"level":"info","message":"Connected to database successfully.","timestamp":"2019-05-27T05:45:38.976Z"}
+{"level":"info","message":"Server started at port 5000.","timestamp":"2019-05-27T05:46:58.849Z"}
+{"level":"info","message":"Connected to database successfully.","timestamp":"2019-05-27T05:46:58.912Z"}
+{"level":"info","message":"Server started at port 5000.","timestamp":"2019-05-27T09:47:30.844Z"}
+{"level":"info","message":"Connected to database successfully.","timestamp":"2019-05-27T09:47:30.935Z"}
+{"level":"info","message":"Server started at port 5000.","timestamp":"2019-05-27T12:02:56.618Z"}
+{"level":"info","message":"Connected to database successfully.","timestamp":"2019-05-27T12:02:56.679Z"}
+{"level":"info","message":"Server started at port 5000.","timestamp":"2019-05-27T12:04:18.890Z"}
+{"level":"info","message":"Connected to database successfully.","timestamp":"2019-05-27T12:04:18.954Z"}
+{"level":"info","message":"Server started at port 5000.","timestamp":"2019-05-27T12:06:15.207Z"}
+{"level":"info","message":"Connected to database successfully.","timestamp":"2019-05-27T12:06:15.267Z"}
+{"level":"info","message":"Server started at port 5000.","timestamp":"2019-05-28T05:34:09.065Z"}
+{"message":"Database Connection Failed!","stack":"ConnectionError: Failed to connect to 192.168.101.20:1433 in 15000ms\n    at Connection.tedious.once.err (D:\\Enterceptor Portal\\NodeServerAPI_Enterceptor\\node_modules\\mssql\\lib\\tedious.js:216:17)\n    at Object.onceWrapper (events.js:285:20)\n    at Connection.emit (events.js:197:13)\n    at Connection.connectTimeout (D:\\Enterceptor Portal\\NodeServerAPI_Enterceptor\\node_modules\\tedious\\lib\\connection.js:924:12)\n    at listOnTimeout (timers.js:327:15)\n    at processTimers (timers.js:271:5)","code":"ETIMEOUT","originalError":{"message":"Failed to connect to 192.168.101.20:1433 in 15000ms","code":"ETIMEOUT"},"name":"ConnectionError","level":"error","timestamp":"2019-05-28T05:34:09.572Z"}
+{"level":"info","message":"Server started at port 5000.","timestamp":"2019-05-28T05:38:25.857Z"}
+{"level":"info","message":"Connected to database successfully.","timestamp":"2019-05-28T05:38:25.914Z"}
+{"level":"info","message":"Server started at port 5000.","timestamp":"2019-05-28T07:56:12.945Z"}
+{"level":"info","message":"Connected to database successfully.","timestamp":"2019-05-28T07:56:13.000Z"}
+{"level":"info","message":"Server started at port 5000.","timestamp":"2019-05-28T09:40:45.310Z"}
+{"level":"info","message":"Connected to database successfully.","timestamp":"2019-05-28T09:40:45.361Z"}
+{"level":"error","message":"Internal server error Incorrect syntax near 'wheremap'.","timestamp":"2019-05-28T09:40:54.804Z"}
+{"level":"info","message":"Server started at port 5000.","timestamp":"2019-05-28T09:41:15.124Z"}
+{"level":"info","message":"Connected to database successfully.","timestamp":"2019-05-28T09:41:15.178Z"}
+{"level":"error","message":"Internal server error The multi-part identifier \"map.AccountId\" could not be bound.","timestamp":"2019-05-28T09:41:17.681Z"}
+{"level":"info","message":"Server started at port 5000.","timestamp":"2019-05-28T09:43:05.124Z"}
+{"level":"info","message":"Connected to database successfully.","timestamp":"2019-05-28T09:43:05.183Z"}
+{"level":"info","message":"Server started at port 5000.","timestamp":"2019-05-28T09:46:26.797Z"}
+{"level":"info","message":"Connected to database successfully.","timestamp":"2019-05-28T09:46:26.846Z"}
+{"level":"info","message":"Server started at port 5000.","timestamp":"2019-05-28T09:48:49.716Z"}
+{"level":"info","message":"Connected to database successfully.","timestamp":"2019-05-28T09:48:49.765Z"}
+{"level":"info","message":"Server started at port 5000.","timestamp":"2019-05-28T09:49:16.988Z"}
+{"level":"info","message":"Connected to database successfully.","timestamp":"2019-05-28T09:49:17.042Z"}
+{"level":"info","message":"Server started at port 5000.","timestamp":"2019-05-28T10:45:57.646Z"}
+{"level":"info","message":"Connected to database successfully.","timestamp":"2019-05-28T10:45:57.692Z"}
+{"level":"info","message":"query Insert into account (AccountName,UserId,IsActive) values ('Eternus Solutions','1', 1)","timestamp":"2019-05-28T10:50:40.185Z"}
+{"level":"info","message":"query Insert into account (AccountName,UserId,IsActive) values ('Google','1', 1)","timestamp":"2019-05-28T11:16:24.753Z"}
+{"level":"info","message":"Server started at port 5000.","timestamp":"2019-05-28T11:57:23.466Z"}
+{"level":"info","message":"Connected to database successfully.","timestamp":"2019-05-28T11:57:23.524Z"}

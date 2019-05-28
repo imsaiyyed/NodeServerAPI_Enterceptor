@@ -319,6 +319,29 @@ router.get("/ProjectEmployeeMap", VerifyToken,async (req, res) => {
   res.send(result.recordset); 
 });
 
+router.get("/MappingDetails", VerifyToken,async (req, res) => {
+  var queryProjectClientMap = "SELECT  map.[Id],map.[ProjectId],map.[ClientId],map.[AccountId]"+
+  ",cli.ClientEmail  FROM [Enterceptor].[dbo].[ProjectClientMap] map"+
+  " inner join [dbo].[Client] cli on map.ClientId =cli.Id where map.IsActive=1 and map.[UserId]=" +req.UserId;
+  
+  var queryProjectAccountMap = "SELECT map.[Id],map.[ProjectId],map.[AccountId],acc.AccountName"+
+  " FROM [Enterceptor].[dbo].[ProjectAccountMap] map inner join [dbo].Account acc "+
+  "on map.AccountId =acc.AccountId where  map.IsActive=1 and map.[UserId]=" +req.UserId;
+    
+  var queryProjectEmployeeMap = "SELECT map.[Id],map.[ProjectId],map.[EmployeeId],emp.Email FROM "+
+  "[Enterceptor].[dbo].[ProjectEmployeeMap] map inner join [dbo].[Employee] emp"+
+  " on map.EmployeeId =emp.Id where  map.IsActive=1 and map.[UserId]=" +req.UserId;
+    
+  const pool = await poolPromise;
+  const resultProjectClientMap = await pool.request().query(queryProjectClientMap);
+  const resultProjectAccountMap = await pool.request().query(queryProjectAccountMap);
+  const resultProjectEmployeeMap= await pool.request().query(queryProjectEmployeeMap);
+
+  res.send({'ProjectClientMap':resultProjectClientMap.recordset,
+  'ProjectAccountMap':resultProjectAccountMap.recordset,
+  'ProjectEmployeeMap':resultProjectEmployeeMap.recordset}); 
+});
+
 router.post("/ProjectEmployeeMap",VerifyToken, async (req, res) => {
   var query =  'Insert into ProjectEmployeeMap (ProjectId,EmployeeId,ManagerId,StartDate,EndDate,UserId,IsActive) values'+ '('+ 
                   req.body.ProjectId +    ',' + 
@@ -513,7 +536,21 @@ router.delete("/ChannelCredentials",VerifyToken, async (req, res) =>{
 
 
 
+
+
 // Sentiment data for dashboard
+
+
+router.get("/Tweets",VerifyToken, async (req, res) => {
+  var query = "SELECT TOP(5)  [Id]  ,[UserId]  ,[TagId]  ,[CreatedAt]  ,[TextMessage]  ,[HashTags]  ,[UserMentions]"+
+  "  ,[UserName]  ,[RetweetCount]  ,[FavoriteCount]  ,[Classification]  ,[SentimentScore]"+
+  "FROM [Enterceptor].[dbo].[TwitterSentimentData] Order by [CreatedAt] desc ";
+  const pool = await poolPromise;
+  const result = await pool.request().query(query);
+  res.send(result.recordset);
+});
+
+
 router.get("/Sentiments",VerifyToken, async (req, res) => {
   var query = "SELECT TOP 5 Accountname ,Sentiment ,COUNT(*)as Value "+
   "FROM [Enterceptor].[dbo].[EmailSentimentData]  "+
@@ -531,7 +568,29 @@ router.get("/SentimentTrend",VerifyToken, async (req, res) => {
   const result = await pool.request().query(query);
   res.send(result.recordset);
 });
+router.get("/TweetSentimentTrend",VerifyToken, async (req, res) => {
+  var query = "SELECT  DatePart(day, createdat) as Day,avg( Sentimentscore ) as AverageSentiment  FROM [Enterceptor].[dbo].[TwitterSentimentData]  group by datePart(day, createdat)  order by datePart(day, createdat)";
+		  
+  const pool = await poolPromise;
+  const result = await pool.request().query(query);
+  res.send(result.recordset);
+});
 
+router.get("/SentimentTrendTwitter",VerifyToken, async (req, res) => {
+  var query = "SELECT  DatePart(month, localtimestamp) as Month,avg( Sentimentscore ) as AverageSentiment  FROM [Enterceptor].[dbo].[EmailSentimentData]  group by datePart(month, localtimestamp)  order by datePart(month, localtimestamp)";
+		  
+  const pool = await poolPromise;
+  const result = await pool.request().query(query);
+  res.send(result.recordset);
+});
+
+router.get("/SentimentSalesforce",VerifyToken, async (req, res) => {
+  var query = "SELECT  DatePart(month, localtimestamp) as Month,avg( Sentimentscore ) as AverageSentiment  FROM [Enterceptor].[dbo].[EmailSentimentData]  group by datePart(month, localtimestamp)  order by datePart(month, localtimestamp)";
+		  
+  const pool = await poolPromise;
+  const result = await pool.request().query(query);
+  res.send(result.recordset);
+});
 router.get("/CategoryCount",VerifyToken, async (req, res) => {
   var query = "SELECT  [Categorization],COUNT([Categorization]) AS Count FROM [Enterceptor].[dbo].[EmailSentimentData] WHERE CAST([Categorization] as varchar) != 'NULL' GROUP BY [Categorization] ORDER BY [Categorization]";
 

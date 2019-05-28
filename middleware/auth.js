@@ -18,6 +18,7 @@ function verifyToken(req, res, next) {
     // if everything good, save to request for use in other routes
     //req={...req,UserId=decoded.ID}
      req.UserId = decoded.Id;
+     req.token =token;
     //  req.body=req.body;
     console.log(req.body)
     next();

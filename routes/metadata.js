@@ -12,6 +12,7 @@ var azure = require("azure-storage");
 var accountInfo = require("../config/azureAccount.json");
 const { exec } = require('child_process');
 var shell = require('shelljs');
+var VerifyToken = require('../middleware/auth');
 
 router.post("/", async (req, res) => {
   const { error } = validate(req.body);
@@ -146,8 +147,8 @@ router.post("/test", async (req, res) => {
 
   res.status(201).send(response.data);
 });
-router.get("/testscheduler",async(req,res)=>{
-  shell.exec("D:/PythonInstallation/python.exe C:/Users/ismail.saiyyed/PycharmProjects/Enterceptor/Scheduler.py 1", function(code, stdout, stderr) {
+router.get("/syncchannels",VerifyToken,async(req,res)=>{
+  shell.exec("D:/PythonInstallation/python.exe C:/Users/ismail.saiyyed/PycharmProjects/Enterceptor/Scheduler.py "+req.UserId+" "+req.token, function(code, stdout, stderr) {
     if(code==-1)
       res.status(500).send({'message':'Error occured'});
     else if(code==0)
@@ -193,7 +194,7 @@ router.get("/SalesforceDetails", async (req, res) => {
 });
 
 router.post("/SalesforceSentimentData", async (req, res) => {
-  var query =  'INSERT INTO [dbo].[SalesforceSentimentData]  ([UserId]  ,[CaseNumber]  ,[Subject]   ,[CreatedDate]  ,[ClosedDate]  ,[IsClosed]  ,[IsEscalated]  ,[Priority]  ,[Status]  ,[Reason]  ,[Owner]  ,[Origin]  ,[Product]  ,[Classification]  ,[PositiveProb]  ,[NegativeProb]  ,[NeutralProb]) VALUES('+ 
+  var query =  'INSERT INTO [dbo].[SalesforceSentimentData]  ([UserId]  ,[CaseNumber]  ,[Subject]   ,[CreatedDate]  ,[ClosedDate]  ,[IsClosed]  ,[IsEscalated]  ,[Priority]  ,[Status]  ,[Reason]  ,[Owner]  ,[Origin]  ,[Product]  ,[Classification]  ,[PositiveProb]  ,[NegativeProb]  ,[NeutralProb],[SentimentScore]) VALUES('+ 
             req.body.UserId +   ',' + 
             req.body.CaseNumber +   ',' + 
             '\''+ req.body.Subject +   '\''+ ',' +
@@ -210,7 +211,9 @@ router.post("/SalesforceSentimentData", async (req, res) => {
            '\''+ req.body.Classification +   '\''+ ',' + 
            req.body.PositiveProb +   ',' + 
            req.body.NegativeProb +   ',' + 
-           req.body.NeutralProb +   '' + 
+           req.body.NeutralProb +   ',' + 
+           req.body.SentimentScore +   '' + 
+
                 ')' ; 
    const pool = await poolPromise;
     const result = await pool.request().query(query);
@@ -229,7 +232,7 @@ router.get("/ExchangeServerData", async (req, res) => {
 });
 
 router.post("/TwitterSentimentData", async (req, res) => {
-  var query =  'Insert into [dbo].[TwitterSentimentData]  ([UserId]  ,[TagId]  ,[CreatedAt]  ,[TextMessage]  ,[HashTags]  ,[UserMentions]  ,[UserName]  ,[RetweetCount]  ,[FavoriteCount]  ,[NeutralProb]  ,[NegativeProb]  ,[PositiveProb]  ,[Classification]) values ('+ 
+  var query =  'Insert into [dbo].[TwitterSentimentData]  ([UserId]  ,[TagId]  ,[CreatedAt]  ,[TextMessage]  ,[HashTags]  ,[UserMentions]  ,[UserName]  ,[RetweetCount]  ,[FavoriteCount]  ,[NeutralProb]  ,[NegativeProb]  ,[PositiveProb] ,[SentimentScore] ,[Classification]) values ('+ 
             req.body.UserId +   ',' + 
             req.body.TagId +   ',' + 
             '\''+ req.body.CreatedAt +   '\''+ ',' +
@@ -242,7 +245,7 @@ router.post("/TwitterSentimentData", async (req, res) => {
            req.body.NeutralProb +   ',' + 
            req.body.NegativeProb +   ',' + 
            req.body.PositiveProb +   ',' + 
-
+           req.body.SentimentScore +   ',' + 
            '\''+ req.body.Classification +   '\''+ '' + 
                 ')' ; 
     const pool = await poolPromise;
@@ -273,6 +276,13 @@ router.get("/verifiedEmails", async (req, res) => {
   res.send(result.recordset);
 });
 
+router.get("/emaildate", async (req, res) => {
+  var query = 'SELECT MAX(GMTTimeStamp) as LatestDate FROM [Enterceptor].[dbo].[EmailSentimentData]';
+  const pool = await poolPromise;
+  const result = await pool.request()
+      .query(query);
+  res.send(result.recordset);
+})
 router.put("/emaildata/:Id", async (req, res) => {
     var query = 'UPDATE dbo.EmailSentimentData SET Verified ='+ req.body.Verified + 'WHERE Id = '+ req.params.Id;
     const pool = await poolPromise;
@@ -368,7 +378,6 @@ router.post("/exchangeData", async (req, res) => {
   let LocalTimeStamp = req.body.LocalReceivedDate;
   let GMTTimeStamp = req.body.ReceivedDate;
 
- 
   const PositiveProbBody = req.body.PositiveProbBody;
   const NegativeProbBody = req.body.NegativeProbBody;
   const NeutralProbBody = req.body.NeutralProbBody;
@@ -380,12 +389,12 @@ router.post("/exchangeData", async (req, res) => {
   const Subjectivity = undefined;
   const Keywords = undefined;
   const SubjectScore = undefined;
-  var SentimentScore = undefined;
+  var SentimentScore = req.body.SentimentScore;
   const Sentiment = req.body.Sentiment;
   const TextAbout = undefined;
   const ExplicitContent = undefined;
   const SubjectSubjectivity =undefined;
-  const Categorization = undefined;
+  const Categorization = req.body.Category;
   const Intent = undefined;
 
    var query =
@@ -404,8 +413,8 @@ router.post("/exchangeData", async (req, res) => {
     .input("SubjectScore", SubjectScore)
     .input("Domain", Domain)
     .input("AccountName", AccountName)
-    .input("LocalTimeStamp", new Date(LocalTimeStamp))
-    .input("GMTTimeStamp", new Date(GMTTimeStamp))
+    .input("LocalTimeStamp", LocalTimeStamp)
+    .input("GMTTimeStamp", GMTTimeStamp)
     .input("Keywords", Keywords)
     .input("Subjectivity", Subjectivity)
     .input("Intent", Intent)
