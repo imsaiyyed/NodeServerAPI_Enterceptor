@@ -2478,3 +2478,147 @@ level":"info","message":"Connected to database successfully.","timestamp":"2019-
 {"level":"info","message":"query Insert into account (AccountName,UserId,IsActive) values ('Google','1', 1)","timestamp":"2019-05-28T11:16:24.753Z"}
 {"level":"info","message":"Server started at port 5000.","timestamp":"2019-05-28T11:57:23.466Z"}
 {"level":"info","message":"Connected to database successfully.","timestamp":"2019-05-28T11:57:23.524Z"}
+{"level":"info","message":"Server started at port 5000.","timestamp":"2019-05-30T05:54:47.474Z"}
+{"level":"info","message":"Connected to database successfully.","timestamp":"2019-05-30T05:54:47.588Z"}
+{"level":"info","message":"Server started at port 5000.","timestamp":"2019-05-30T06:01:20.382Z"}
+{"level":"info","message":"Connected to database successfully.","timestamp":"2019-05-30T06:01:20.442Z"}
+{"level":"info","message":"Server started at port 5000.","timestamp":"2019-05-30T08:15:46.185Z"}
+{"level":"info","message":"Connected to database successfully.","timestamp":"2019-05-30T08:15:46.247Z"}
+{"level":"info","message":"Server started at port 5000.","timestamp":"2019-06-17T04:58:54.064Z"}
+{"level":"info","message":"Connected to database successfully.","timestamp":"2019-06-17T04:58:54.190Z"}
+{"level":"info","message":"Server started at port 5000.","timestamp":"2019-07-09T12:33:42.630Z"}
+{"level":"info","message":"Connected to database successfully.","timestamp":"2019-07-09T12:33:42.729Z"}
+{"level":"info","message":"Server started at port 5000.","timestamp":"2019-07-10T05:53:09.821Z"}
+{"level":"info","message":"Connected to database successfully.","timestamp":"2019-07-10T05:53:09.884Z"}
+{"level":"info","message":"Server started at port 5000.","timestamp":"2019-07-10T06:29:31.300Z"}
+{"level":"info","message":"Connected to database successfully.","timestamp":"2019-07-10T06:29:31.355Z"}
+{"level":"error","message":"Internal server error Incorrect syntax near '6'.","timestamp":"2019-07-10T06:29:41.770Z"}
+{"level":"info","message":"Server started at port 5000.","timestamp":"2019-07-10T06:31:11.358Z"}
+{"level":"info","message":"Connected to database successfully.","timestamp":"2019-07-10T06:31:11.415Z"}
+{"level":"error","message":"Internal server error Incorrect syntax near '6'.","timestamp":"2019-07-10T06:31:28.972Z"}
+{"level":"error","message":"Internal server error Incorrect syntax near '06'.","timestamp":"2019-07-10T06:32:33.583Z"}
+{"level":"error","message":"Internal server error Incorrect syntax near '6'.","timestamp":"2019-07-10T06:33:28.384Z"}
+{"level":"info","message":"Server started at port 5000.","timestamp":"2019-07-10T06:36:29.382Z"}
+{"level":"info","message":"Connected to database successfully.","timestamp":"2019-07-10T06:36:29.446Z"}
+{"level":"info","message":"Server started at port 5000.","timestamp":"2019-07-10T08:12:17.975Z"}
+{"level":"info","message":"Connected to database successfully.","timestamp":"2019-07-10T08:12:18.036Z"}
+{"level":"info","message":"Server started at port 5000.","timestamp":"2019-07-10T12:46:10.901Z"}
+{"level":"info","message":"Connected to database successfully.","timestamp":"2019-07-10T12:46:10.954Z"}
+{"level":"info","message":"Server started at port 5000.","timestamp":"2019-07-10T14:02:57.772Z"}
+{"level":"info","message":"Connected to database successfully.","timestamp":"2019-07-10T14:02:57.819Z"}
+{"level":"info","message":"Server started at port 5000.","timestamp":"2019-07-11T05:20:04.772Z"}
+{"level":"info","message":"Connected to database successfully.","timestamp":"2019-07-11T05:20:04.825Z"}
+{"level":"error","message":"Internal server error Unexpected token n in JSON at position 0","timestamp":"2019-07-11T05:30:06.417Z"}
+{"level":"error","message":"Internal server error Unexpected token n in JSON at position 0","timestamp":"2019-07-11T05:30:06.713Z"}
+{"level":"error","message":"Internal server error Unexpected token n in JSON at position 0","timestamp":"2019-07-11T05:30:27.657Z"}
+{"level":"error","message":"Internal server error Unexpected token n in JSON at position 0","timestamp":"2019-07-11T05:30:27.842Z"}
+{"level":"error","message":"Internal server error Unexpected token n in JSON at position 0","timestamp":"2019-07-11T05:30:28.056Z"}
+{"level":"info","message":"Server started at port 5000.","timestamp":"2019-07-11T05:33:32.900Z"}
+{"level":"info","message":"Connected to database successfully.","timestamp":"2019-07-11T05:33:32.953Z"}
+{"level":"error","message":"Internal server error Unexpected token n in JSON at position 0","timestamp":"2019-07-11T05:35:00.758Z"}
+{"level":"error","message":"Internal server error Unexpected token n in JSON at position 0","timestamp":"2019-07-11T05:35:00.798Z"}
+{"level":"error","message":"Internal server error Unexpected token n in JSON at position 0","timestamp":"2019-07-11T05:35:03.453Z"}
+{"level":"error","message":"Internal server error Unexpected token n in JSON at position 0","timestamp":"2019-07-11T05:35:13.668Z"}
+{"level":"error","message":"Internal server error Unexpected token n in JSON at position 0","timestamp":"2019-07-11T05:35:13.700Z"}
+{"level":"error","message":"Internal server error Unexpected token n in JSON at position 0","timestamp":"2019-07-11T05:35:13.741Z"}
+{"level":"error","message":"Internal server error Unexpected token n in JSON at position 0","timestamp":"2019-07-11T05:35:13.775Z"}
+{"level":"error","message":"Internal server error Unexpected token n in JSON at position 0","timestamp":"2019-07-11T05:35:13.808Z"}
+{"level":"error","message":"Internal server error Unexpected token n in JSON at position 0","timestamp":"2019-07-11T05:36:54.964Z"}
+{"level":"error","message":"Internal server error Unexpected token n in JSON at position 0","timestamp":"2019-07-11T05:36:54.990Z"}
+{"level":"error","message":"Internal server error Unexpected token n in JSON at position 0","timestamp":"2019-07-11T05:38:19.027Z"}
+{"level":"error","message":"Internal server error Unexpected token n in JSON at position 0","timestamp":"2019-07-11T05:38:19.132Z"}
+{"level":"info","message":"Server started at port 5000.","timestamp":"2019-07-11T05:39:34.893Z"}
+{"level":"info","message":"Connected to database successfully.","timestamp":"2019-07-11T05:39:34.943Z"}
+{"level":"error","message":"Internal server error Unexpected token n in JSON at position 0","timestamp":"2019-07-11T05:39:47.940Z"}
+{"level":"error","message":"Internal server error Unexpected token n in JSON at position 0","timestamp":"2019-07-11T05:39:47.992Z"}
+{"level":"info","message":"Server started at port 5000.","timestamp":"2019-07-11T05:41:59.577Z"}
+{"level":"info","message":"Connected to database successfully.","timestamp":"2019-07-11T05:41:59.631Z"}
+{"level":"error","message":"Internal server error Unexpected token n in JSON at position 0","timestamp":"2019-07-11T05:42:06.740Z"}
+{"level":"error","message":"Internal server error Unexpected token n in JSON at position 0","timestamp":"2019-07-11T05:42:10.562Z"}
+{"level":"error","message":"Internal server error Unexpected token n in JSON at position 0","timestamp":"2019-07-11T05:42:20.125Z"}
+{"level":"info","message":"Server started at port 5000.","timestamp":"2019-07-11T05:45:06.999Z"}
+{"level":"info","message":"Connected to database successfully.","timestamp":"2019-07-11T05:45:07.052Z"}
+{"level":"error","message":"Internal server error Unexpected token n in JSON at position 0","timestamp":"2019-07-11T05:45:38.158Z"}
+{"level":"error","message":"Internal server error Unexpected token n in JSON at position 0","timestamp":"2019-07-11T05:45:38.198Z"}
+{"level":"error","message":"Internal server error Unexpected token n in JSON at position 0","timestamp":"2019-07-11T05:45:40.349Z"}
+{"level":"error","message":"Internal server error Unexpected token n in JSON at position 0","timestamp":"2019-07-11T05:45:50.331Z"}
+{"level":"error","message":"Internal server error Unexpected token n in JSON at position 0","timestamp":"2019-07-11T05:45:50.370Z"}
+{"level":"error","message":"Internal server error Unexpected token n in JSON at position 0","timestamp":"2019-07-11T05:45:50.418Z"}
+{"level":"error","message":"Internal server error Unexpected token n in JSON at position 0","timestamp":"2019-07-11T05:45:50.462Z"}
+{"level":"error","message":"Internal server error Unexpected token n in JSON at position 0","timestamp":"2019-07-11T05:45:50.497Z"}
+{"level":"error","message":"Internal server error Unexpected token n in JSON at position 0","timestamp":"2019-07-11T05:49:47.650Z"}
+{"level":"info","message":"Server started at port 5000.","timestamp":"2019-07-11T05:52:57.713Z"}
+{"level":"info","message":"Connected to database successfully.","timestamp":"2019-07-11T05:52:57.767Z"}
+{"level":"info","message":"Server started at port 5000.","timestamp":"2019-07-11T06:14:48.036Z"}
+{"level":"info","message":"Connected to database successfully.","timestamp":"2019-07-11T06:14:48.097Z"}
+{"level":"info","message":"Server started at port 5000.","timestamp":"2019-07-11T06:56:30.396Z"}
+{"level":"info","message":"Connected to database successfully.","timestamp":"2019-07-11T06:56:30.454Z"}
+{"level":"info","message":"Server started at port 5000.","timestamp":"2019-07-11T10:21:38.376Z"}
+{"message":"Database Connection Failed!","stack":"ConnectionError: Failed to connect to 192.168.101.20:1433 in 15000ms\n    at Connection.tedious.once.err (D:\\Enterceptor Portal\\NodeServerAPI_Enterceptor\\node_modules\\mssql\\lib\\tedious.js:216:17)\n    at Object.onceWrapper (events.js:285:20)\n    at Connection.emit (events.js:197:13)\n    at Connection.connectTimeout (D:\\Enterceptor Portal\\NodeServerAPI_Enterceptor\\node_modules\\tedious\\lib\\connection.js:924:12)\n    at listOnTimeout (timers.js:327:15)\n    at processTimers (timers.js:271:5)","code":"ETIMEOUT","originalError":{"message":"Failed to connect to 192.168.101.20:1433 in 15000ms","code":"ETIMEOUT"},"name":"ConnectionError","level":"error","timestamp":"2019-07-11T10:21:38.386Z"}
+{"level":"error","message":"Internal server error Cannot read property 'request' of undefined","timestamp":"2019-07-11T10:24:47.979Z"}
+{"level":"info","message":"Server started at port 5000.","timestamp":"2019-07-11T10:25:15.885Z"}
+{"level":"info","message":"Connected to database successfully.","timestamp":"2019-07-11T10:25:15.947Z"}
+{"level":"info","message":"Server started at port 5000.","timestamp":"2019-07-12T06:24:18.224Z"}
+{"level":"info","message":"Connected to database successfully.","timestamp":"2019-07-12T06:24:18.427Z"}
+{"level":"info","message":"Server started at port 5000.","timestamp":"2019-07-12T07:18:21.693Z"}
+{"level":"info","message":"Connected to database successfully.","timestamp":"2019-07-12T07:18:21.816Z"}
+{"level":"info","message":"Server started at port 5000.","timestamp":"2019-07-12T09:05:03.900Z"}
+{"level":"info","message":"Connected to database successfully.","timestamp":"2019-07-12T09:05:04.030Z"}
+{"level":"error","message":"Internal server error Must declare the scalar variable \"@Cw\".","timestamp":"2019-07-12T09:15:55.078Z"}
+{"level":"error","message":"Internal server error Must declare the scalar variable \"@Cw\".","timestamp":"2019-07-12T09:17:03.526Z"}
+{"level":"error","message":"Internal server error Must declare the scalar variable \"@Cw\".","timestamp":"2019-07-12T09:17:03.618Z"}
+{"level":"error","message":"Internal server error Must declare the scalar variable \"@Cw\".","timestamp":"2019-07-12T09:19:35.350Z"}
+{"level":"error","message":"Internal server error Must declare the scalar variable \"@Cw\".","timestamp":"2019-07-12T09:19:35.565Z"}
+{"level":"error","message":"Internal server error Must declare the scalar variable \"@Cw\".","timestamp":"2019-07-12T09:19:35.604Z"}
+{"level":"error","message":"Internal server error Must declare the scalar variable \"@Cw\".","timestamp":"2019-07-12T09:19:35.644Z"}
+{"level":"error","message":"Internal server error Must declare the scalar variable \"@Cw\".","timestamp":"2019-07-12T09:19:35.764Z"}
+{"level":"error","message":"Internal server error Must declare the scalar variable \"@Cw\".","timestamp":"2019-07-12T09:19:35.820Z"}
+{"level":"error","message":"Internal server error Must declare the scalar variable \"@Cw\".","timestamp":"2019-07-12T09:19:35.912Z"}
+{"level":"error","message":"Internal server error Must declare the scalar variable \"@Cw\".","timestamp":"2019-07-12T09:19:44.163Z"}
+{"level":"error","message":"Internal server error Must declare the scalar variable \"@Cw\".","timestamp":"2019-07-12T09:19:44.242Z"}
+{"level":"error","message":"Internal server error Must declare the scalar variable \"@Cw\".","timestamp":"2019-07-12T09:19:44.364Z"}
+{"level":"error","message":"Internal server error Must declare the scalar variable \"@Cw\".","timestamp":"2019-07-12T09:21:00.638Z"}
+{"level":"error","message":"Internal server error Must declare the scalar variable \"@Cw\".","timestamp":"2019-07-12T09:21:00.693Z"}
+{"level":"error","message":"Internal server error Must declare the scalar variable \"@Cw\".","timestamp":"2019-07-12T09:21:00.731Z"}
+{"level":"error","message":"Internal server error Must declare the scalar variable \"@Cw\".","timestamp":"2019-07-12T09:21:00.809Z"}
+{"level":"error","message":"Internal server error Must declare the scalar variable \"@Cw\".","timestamp":"2019-07-12T09:21:00.856Z"}
+{"level":"error","message":"Internal server error Must declare the scalar variable \"@Cw\".","timestamp":"2019-07-12T09:21:01.229Z"}
+{"level":"error","message":"Internal server error Must declare the scalar variable \"@Cw\".","timestamp":"2019-07-12T09:21:01.266Z"}
+{"level":"error","message":"Internal server error Must declare the scalar variable \"@Cw\".","timestamp":"2019-07-12T09:21:01.342Z"}
+{"level":"error","message":"Internal server error Must declare the scalar variable \"@Cw\".","timestamp":"2019-07-12T09:21:11.528Z"}
+{"level":"error","message":"Internal server error Must declare the scalar variable \"@Cw\".","timestamp":"2019-07-12T09:21:11.647Z"}
+{"level":"error","message":"Internal server error Must declare the scalar variable \"@Cw\".","timestamp":"2019-07-12T09:21:11.759Z"}
+{"level":"error","message":"Internal server error Must declare the scalar variable \"@Cw\".","timestamp":"2019-07-12T09:21:20.846Z"}
+{"level":"error","message":"Internal server error Must declare the scalar variable \"@Cw\".","timestamp":"2019-07-12T09:21:20.884Z"}
+{"level":"error","message":"Internal server error Must declare the scalar variable \"@Cw\".","timestamp":"2019-07-12T09:21:21.145Z"}
+{"level":"error","message":"Internal server error Must declare the scalar variable \"@Cw\".","timestamp":"2019-07-12T09:21:21.300Z"}
+{"level":"error","message":"Internal server error Must declare the scalar variable \"@Cw\".","timestamp":"2019-07-12T09:21:21.339Z"}
+{"level":"error","message":"Internal server error Must declare the scalar variable \"@Cw\".","timestamp":"2019-07-12T09:21:21.417Z"}
+{"level":"error","message":"Internal server error Must declare the scalar variable \"@Cw\".","timestamp":"2019-07-12T09:21:21.469Z"}
+{"level":"error","message":"Internal server error Must declare the scalar variable \"@Cw\".","timestamp":"2019-07-12T09:21:21.501Z"}
+{"level":"error","message":"Internal server error Must declare the scalar variable \"@Cw\".","timestamp":"2019-07-12T09:21:54.827Z"}
+{"level":"error","message":"Internal server error Must declare the scalar variable \"@Cw\".","timestamp":"2019-07-12T09:21:54.914Z"}
+{"level":"error","message":"Internal server error Must declare the scalar variable \"@Cw\".","timestamp":"2019-07-12T09:21:54.987Z"}
+{"level":"error","message":"Internal server error Must declare the scalar variable \"@Cw\".","timestamp":"2019-07-12T09:21:55.020Z"}
+{"level":"error","message":"Internal server error Must declare the scalar variable \"@Cw\".","timestamp":"2019-07-12T09:21:55.052Z"}
+{"level":"error","message":"Internal server error Must declare the scalar variable \"@Cw\".","timestamp":"2019-07-12T09:21:55.133Z"}
+{"level":"error","message":"Internal server error Must declare the scalar variable \"@Cw\".","timestamp":"2019-07-12T09:21:55.185Z"}
+{"level":"error","message":"Internal server error Must declare the scalar variable \"@Cw\".","timestamp":"2019-07-12T09:21:55.230Z"}
+{"level":"error","message":"Internal server error Must declare the scalar variable \"@Cw\".","timestamp":"2019-07-12T09:21:55.306Z"}
+{"level":"info","message":"Server started at port 5000.","timestamp":"2019-07-12T09:23:28.398Z"}
+{"level":"info","message":"Connected to database successfully.","timestamp":"2019-07-12T09:23:28.450Z"}
+{"level":"info","message":"Server started at port 5000.","timestamp":"2019-07-12T10:17:38.716Z"}
+{"level":"info","message":"Connected to database successfully.","timestamp":"2019-07-12T10:17:38.782Z"}
+{"level":"info","message":"Server started at port 5000.","timestamp":"2019-07-12T12:19:30.313Z"}
+{"level":"info","message":"Connected to database successfully.","timestamp":"2019-07-12T12:19:30.375Z"}
+{"level":"info","message":"Server started at port 5000.","timestamp":"2019-07-12T12:44:55.252Z"}
+{"level":"info","message":"Connected to database successfully.","timestamp":"2019-07-12T12:44:55.308Z"}
+{"level":"info","message":"Server started at port 5000.","timestamp":"2019-07-12T13:26:18.577Z"}
+{"level":"info","message":"Connected to database successfully.","timestamp":"2019-07-12T13:26:18.626Z"}
+{"level":"info","message":"Server started at port 5000.","timestamp":"2019-07-12T14:59:22.094Z"}
+{"level":"info","message":"Connected to database successfully.","timestamp":"2019-07-12T14:59:22.179Z"}
+{"level":"error","message":"Internal server error request entity too large","timestamp":"2019-07-12T16:24:55.931Z"}
+{"level":"info","message":"Server started at port 5000.","timestamp":"2019-07-13T06:49:43.017Z"}
+{"message":"Database Connection Failed!","stack":"ConnectionError: Failed to connect to 192.168.101.20:1433 in 15000ms\n    at Connection.tedious.once.err (D:\\Enterceptor Portal\\NodeServerAPI_Enterceptor\\node_modules\\mssql\\lib\\tedious.js:216:17)\n    at Object.onceWrapper (events.js:285:20)\n    at Connection.emit (events.js:197:13)\n    at Connection.connectTimeout (D:\\Enterceptor Portal\\NodeServerAPI_Enterceptor\\node_modules\\tedious\\lib\\connection.js:924:12)\n    at listOnTimeout (timers.js:327:15)\n    at processTimers (timers.js:271:5)","code":"ETIMEOUT","originalError":{"message":"Failed to connect to 192.168.101.20:1433 in 15000ms","code":"ETIMEOUT"},"name":"ConnectionError","level":"error","timestamp":"2019-07-13T06:49:43.022Z"}
+{"level":"info","message":"Server started at port 5000.","timestamp":"2019-07-13T06:50:41.484Z"}
+{"level":"info","message":"Connected to database successfully.","timestamp":"2019-07-13T06:50:41.604Z"}

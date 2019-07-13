@@ -534,6 +534,18 @@ router.delete("/ChannelCredentials",VerifyToken, async (req, res) =>{
 });
 
 
+//Email mapping Api
+
+router.get("/NewEmailData",VerifyToken, async (req, res) => {
+  var query = "SELECT [Id]  ,[Sentiment]  ,[Categorization]  ,[Domain]  ,[AccountName]"+
+  ",[Sender]  ,[SenderDesignation]  ,[LocalTimeStamp]  ,[Subject]  ,[ToList]"+
+  ",[CCList]    ,[IsVerifiedCategory]  ,[IsExportedCategory]  ,[Classification]"+
+  ",[ProjectId]  ,[SenderId]  ,[AccountId]  ,[Surity]"+
+  "FROM [Enterceptor].[dbo].[EmailSentimentData] WHERE [Verified]=0 and [UserId]="+req.UserId;
+  const pool = await poolPromise;
+  const result = await pool.request().query(query);
+  res.send(result.recordset);
+});
 
 
 
