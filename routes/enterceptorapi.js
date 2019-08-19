@@ -60,7 +60,6 @@ router.delete("/account", VerifyToken,async (req, res) =>{
 
 
 
-
 //CLIENTS
   
 router.get("/clients",VerifyToken, async (req, res) => {

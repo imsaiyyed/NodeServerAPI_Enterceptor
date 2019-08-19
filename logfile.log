@@ -2622,3 +2622,21 @@ level":"info","message":"Connected to database successfully.","timestamp":"2019-
 {"message":"Database Connection Failed!","stack":"ConnectionError: Failed to connect to 192.168.101.20:1433 in 15000ms\n    at Connection.tedious.once.err (D:\\Enterceptor Portal\\NodeServerAPI_Enterceptor\\node_modules\\mssql\\lib\\tedious.js:216:17)\n    at Object.onceWrapper (events.js:285:20)\n    at Connection.emit (events.js:197:13)\n    at Connection.connectTimeout (D:\\Enterceptor Portal\\NodeServerAPI_Enterceptor\\node_modules\\tedious\\lib\\connection.js:924:12)\n    at listOnTimeout (timers.js:327:15)\n    at processTimers (timers.js:271:5)","code":"ETIMEOUT","originalError":{"message":"Failed to connect to 192.168.101.20:1433 in 15000ms","code":"ETIMEOUT"},"name":"ConnectionError","level":"error","timestamp":"2019-07-13T06:49:43.022Z"}
 {"level":"info","message":"Server started at port 5000.","timestamp":"2019-07-13T06:50:41.484Z"}
 {"level":"info","message":"Connected to database successfully.","timestamp":"2019-07-13T06:50:41.604Z"}
+{"level":"info","message":"Server started at port 5000.","timestamp":"2019-07-13T09:00:16.547Z"}
+{"level":"info","message":"Connected to database successfully.","timestamp":"2019-07-13T09:00:16.611Z"}
+{"level":"info","message":"Server started at port 5000.","timestamp":"2019-07-13T09:40:13.653Z"}
+{"level":"info","message":"Connected to database successfully.","timestamp":"2019-07-13T09:40:13.720Z"}
+{"level":"info","message":"Server started at port 5000.","timestamp":"2019-07-13T09:59:31.806Z"}
+{"message":"Database Connection Failed!","stack":"ConnectionError: Failed to connect to 192.168.101.20:1433 in 15000ms\n    at Connection.tedious.once.err (D:\\Enterceptor Portal\\NodeServerAPI_Enterceptor\\node_modules\\mssql\\lib\\tedious.js:216:17)\n    at Object.onceWrapper (events.js:285:20)\n    at Connection.emit (events.js:197:13)\n    at Connection.connectTimeout (D:\\Enterceptor Portal\\NodeServerAPI_Enterceptor\\node_modules\\tedious\\lib\\connection.js:924:12)\n    at listOnTimeout (timers.js:327:15)\n    at processTimers (timers.js:271:5)","code":"ETIMEOUT","originalError":{"message":"Failed to connect to 192.168.101.20:1433 in 15000ms","code":"ETIMEOUT"},"name":"ConnectionError","level":"error","timestamp":"2019-07-13T09:59:31.811Z"}
+{"level":"info","message":"Server started at port 5000.","timestamp":"2019-07-13T09:59:57.789Z"}
+{"level":"info","message":"Connected to database successfully.","timestamp":"2019-07-13T09:59:57.908Z"}
+{"level":"info","message":"Server started at port 5000.","timestamp":"2019-07-15T06:40:26.927Z"}
+{"level":"info","message":"Connected to database successfully.","timestamp":"2019-07-15T06:40:26.988Z"}
+{"level":"info","message":"Server started at port 5000.","timestamp":"2019-07-15T12:42:00.894Z"}
+{"message":"Database Connection Failed!","stack":"ConnectionError: Failed to connect to 192.168.101.20:1433 in 15000ms\n    at Connection.tedious.once.err (D:\\Enterceptor Portal\\NodeServerAPI_Enterceptor\\node_modules\\mssql\\lib\\tedious.js:216:17)\n    at Object.onceWrapper (events.js:285:20)\n    at Connection.emit (events.js:197:13)\n    at Connection.connectTimeout (D:\\Enterceptor Portal\\NodeServerAPI_Enterceptor\\node_modules\\tedious\\lib\\connection.js:924:12)\n    at listOnTimeout (timers.js:327:15)\n    at processTimers (timers.js:271:5)","code":"ETIMEOUT","originalError":{"message":"Failed to connect to 192.168.101.20:1433 in 15000ms","code":"ETIMEOUT"},"name":"ConnectionError","level":"error","timestamp":"2019-07-15T12:42:00.932Z"}
+{"level":"info","message":"Server started at port 5000.","timestamp":"2019-07-15T12:42:12.929Z"}
+{"level":"info","message":"Connected to database successfully.","timestamp":"2019-07-15T12:42:12.986Z"}
+{"level":"error","message":"Internal server error request entity too large","timestamp":"2019-07-15T13:38:35.814Z"}
+{"level":"error","message":"Internal server error request entity too large","timestamp":"2019-07-15T13:38:45.955Z"}
+{"level":"info","message":"Server started at port 5000.","timestamp":"2019-08-19T06:15:29.898Z"}
+{"level":"info","message":"Connected to database successfully.","timestamp":"2019-08-19T06:15:29.951Z"}
