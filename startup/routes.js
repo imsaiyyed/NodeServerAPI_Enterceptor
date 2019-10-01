@@ -23,7 +23,7 @@ module.exports = function (app) {
 
     app.use("/", express.static(public));
     app.use('/api/auth',authentication );
-    app.use('/api/metadata', metadata);
+    app.use('/api/metadata', metadata); 
     app.use('/api/dashboard', dashboard);   
     app.use('/api/enterceptorapi', enterceptorapi);
     
