@@ -266,14 +266,16 @@ router.post("/TwitterSentimentData", async (req, res) => {
 router.get("/ExchangeServerDetails", async (req, res) => {
   var query = "SELECT  [Id]  ,[ServiceAccountEmail]  ,[ServiceAccountPassword]" +
     "  ,[ServiceAccountAutoDiscoverUrl]  ,[ClientName]  ,[IsActive]  ,[UserId]  ,[LastSync]" +
-    "FROM [Enterceptor].[dbo].[ExchangeDetails] WHERE [UserId]=" + req.query.UserId;
+    "FROM [Enterceptor].[dbo].[
+      
+    ] WHERE [UserId]=" + req.query.UserId;
   const pool = await poolPromise;
   const result = await pool.request().query(query);
   res.send(result.recordset);
 });
 
 router.get("/emailList", async (req, res) => {
-  var query = " select [Id],[Email] from [dbo].[Employee] WHERE [AllowMonitoring]=1 AND UserId= " + req.query.UserId;
+  var query = " select [Id],[Email],[LastSync] from [dbo].[Employee] WHERE [AllowMonitoring]=1 AND UserId= " + req.query.UserId;
   const pool = await poolPromise;
   const result = await pool.request().query(query);
   res.send(result.recordset);

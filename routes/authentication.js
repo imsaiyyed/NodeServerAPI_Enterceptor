@@ -12,7 +12,7 @@ router.use(bodyParser.json());
 
 router.post('/register', function(req, res) {    
     var token = jwt.sign({ Username : req.body.Username,Password:req.body.Password }, config.secret, {
-        expiresIn: 86400 // expires in 24 hours
+        expiresIn: 864000 // expires in 10 Days
       });
       res.status(200).send({ auth: true, token: token });
   });
@@ -25,7 +25,7 @@ router.post('/register', function(req, res) {
     if(result.rowsAffected[0]==1){
       if(user.Password==req.body.Password){
         var token = jwt.sign({Id:user.Id, Username : req.body.Username,Role:user.Role}, config.secret, {
-              expiresIn: 86400 // expires in 24 hours
+              expiresIn: 864000 // expires in 24 hours
             });
            res.status(200).send({ auth: true, token: token });
       }else{
