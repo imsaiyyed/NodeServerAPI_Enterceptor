@@ -30,15 +30,30 @@ router.get("/accounts",VerifyToken, async (req, res) => {
 });
 
 router.post("/account",VerifyToken, async (req, res) => {
+  console.log('Account',req.body)
       var query =  
       'Insert into account (AccountName,UserId,IsActive) values ('+
        '\''+ req.body.AccountName +   '\''+ ',' + '\'' +  req.UserId +  '\', 1'+ ')' ; 
        winston.info('query ' +  query ) ;   
     const pool = await poolPromise;
     const result = await pool.request().query(query); 
-    res.status(201).send('success');
+    query = "select max(AccountId) as Id from dbo.account where userId= " + req.UserId + " and isActive=1";
+    const resultlite = await pool.request().query(query);
+    res.status(201).send(resultlite.recordset);
 });
 
+router.post("/accountlite",VerifyToken, async (req, res) => {
+  console.log('Account',req.body)
+      var query =  
+      "Insert into account (AccountName,UserId,IsActive,Domain) values ("+
+       '\''+ req.body.AccountName +   '\''+ ',' + '\'' +  req.UserId +  '\', 1,\''+req.body.Domain+ '\')' ; 
+       winston.info('query ' +  query ) ;   
+    const pool = await poolPromise;
+    const result = await pool.request().query(query); 
+    query = "select max(AccountId) as Id from dbo.account where userId= " + req.UserId + " and isActive=1";
+    const resultlite = await pool.request().query(query);
+    res.status(201).send(resultlite.recordset);
+});
 router.put("/account",VerifyToken, async (req, res) =>{ 
    console.log('req',req.body.AccountId);
                 var query = "UPDATE [account] SET AccountName= \'" + req.body.AccountName  +  "\'," +
@@ -78,6 +93,8 @@ router.get("/clients",VerifyToken, async (req, res) => {
 
 
 router.post("/clients",VerifyToken, async (req, res) => {
+  console.log('Client',req.body)
+
   var query =  'Insert into client ([AccountId],ClientName,ClientEmail,Designation,Influence,AllowMonitoring,UserId,IsActive) values ('+ 
             req.body.AccountId +   ',' + 
            '\''+ req.body.ClientName +   '\''+ ',' + 
@@ -86,9 +103,11 @@ router.post("/clients",VerifyToken, async (req, res) => {
              + req.body.Influence +    ',' + 
              + req.body.AllowMonitoring +   ',' +     
              +  req.UserId +  ', 1'+ ')' ; 
-   const pool = await poolPromise;
-    const result = await pool.request().query(query);
-    res.status(201).send('success');
+  const pool = await poolPromise;
+  const result = await pool.request().query(query);
+  query = "select max(Id) as Id from dbo.client where userId= " + req.UserId + " and isActive=1";
+  const resultlite = await pool.request().query(query);
+  res.status(201).send(resultlite.recordset);
        
 });
 
@@ -171,13 +190,13 @@ router.get("/Employees",VerifyToken, async (req, res) => {
 router.post("/Employees",VerifyToken,async (req, res) => {
   console.log(req.body)
 
-  var query =  'Insert into Employee ([FirstName],[LastName],[Email],Designation,AllowMonitoring,UserId,IsActive) values'+ '('+ 
+  var query =  'Insert into Employee ([FirstName],[LastName],[Email],Designation,AllowMonitoring,UserId,IsActive,LastSync) values'+ '('+ 
                 '\''+ req.body.FirstName +   '\''+ ',' + 
                 '\''+ req.body.LastName +   '\''+ ',' + 
                 '\''+ req.body.Email +   '\''+ ',' + 
                  '\''+ req.body.Designation +   '\''+ ',' + 
                  req.body.AllowMonitoring +   ',' +  
-                '\'' +  req.UserId +  '\', 1'+ ')' ; 
+                '\'' +  req.UserId +  '\', 1'+ ',\'2019-11-1\')' ; 
                 console.log(query)
    const pool = await poolPromise;
     const result = await pool.request().query(query);

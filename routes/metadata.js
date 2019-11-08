@@ -266,9 +266,7 @@ router.post("/TwitterSentimentData", async (req, res) => {
 router.get("/ExchangeServerDetails", async (req, res) => {
   var query = "SELECT  [Id]  ,[ServiceAccountEmail]  ,[ServiceAccountPassword]" +
     "  ,[ServiceAccountAutoDiscoverUrl]  ,[ClientName]  ,[IsActive]  ,[UserId]  ,[LastSync]" +
-    "FROM [Enterceptor].[dbo].[
-      
-    ] WHERE [UserId]=" + req.query.UserId;
+    "FROM [Enterceptor].[dbo].[ExchangeDetails] WHERE [UserId]=" + req.query.UserId;
   const pool = await poolPromise;
   const result = await pool.request().query(query);
   res.send(result.recordset);
@@ -297,6 +295,16 @@ router.get("/emaildate", async (req, res) => {
   res.send(result.recordset);
 })
 
+router.put("/emailsyncdate/", async (req, res) => {
+  console.log(req.body);
+  var query = "UPDATE [dbo].[Employee] SET [LastSync] ='"+req.body.lastSyncDate+"' WHERE [Email]='"+req.body.employeeEmail+"'";
+  console.log(query);
+
+  const pool = await poolPromise;
+  const result = await pool.request()
+    .query(query);
+  res.send(result.recordset);
+})
 router.put("/emaildate/", async (req, res) => {
   console.log(req.body);
   var query = "UPDATE [dbo].[UserChannels] SET [LastSync] ='"+req.body.lastSyncDate+"'";
@@ -375,6 +383,103 @@ router.post("/tsvRunEngine", async (req, res) => {
   }
 })
 
+router.post("/exchangeDataLite", async (req, res) => {
+  // const { error } = validate(req.body);
+
+  // if (error) {
+  //   winston.error("Error occurred ", error.message);
+  //   res.status(400).send(error.details[0].message);
+  //   return;
+  // }
+
+  // res.status(200).json({message:'Success'});
+
+  let EmailBody = req.body.Body;
+  let Subject = req.body.Subject;
+  let ConversationId = req.body.ConversationId;
+  let Sender = req.body.From;
+  let ToList = req.body.ToList;
+  let CCList = req.body.CCList;
+  let ClientId=req.body.SenderId;
+  // let ProjectId=req.body.ProjectId;
+  let AccountId=req.body.AccountId;
+  let EmployeeId=req.body.EmployeeId;
+
+  let CS=req.body.CorrespondingWeight;
+  let CSCW=req.body.Cscw;
+
+  let Classification = req.body.Classification;
+  let Domain = Utilities.extractDomain(Sender);
+  //let AccountName = Utilities.extractAccountName(Domain);
+  let AccountName = Utilities.extractAccountNameWithoutDomain(Domain);
+
+  let LocalTimeStamp = req.body.LocalReceivedDate;
+  let GMTTimeStamp = req.body.ReceivedDate;
+
+  const PositiveProbBody = req.body.PositiveProbBody;
+  const NegativeProbBody = req.body.NegativeProbBody;
+  const NeutralProbBody = req.body.NeutralProbBody;
+
+  const PositiveProbSubject = req.body.PositiveProbSubject;
+  const NegativeProbSubject = req.body.NegativeProbSubject;
+  const NeutralProbSubject = req.body.NeutralProbSubject;
+
+  const Subjectivity = undefined;
+  const Keywords = req.body.Keywords;
+  const SubjectScore = undefined;
+  var SentimentScore = req.body.SentimentScore;
+  const Sentiment = req.body.Sentiment;
+  const TextAbout = req.body.TextAbout;
+  const ExplicitContent = req.body.IsExplicit;
+  const SubjectSubjectivity = undefined;
+  const Categorization = req.body.Category;
+  const Intent = req.body.Intent;
+
+  var query =
+    "Insert into dbo.EmailSentimentDataLite(Sentiment, ConversationId, Subject, Sender, ToList, CCList, SentimentScore,  SubjectScore, Domain, AccountName,LocalTimeStamp, GMTTimeStamp, Keywords,Subjectivity, Intent, CreatedAt, Categorization ,SubjectSubjectivity,ExplicitContent, TextAbout , EmailBody,Classification,PositiveProbability,NegativeProbability,NeutralProbability,SubjectNegativeProbability,SubjectNeutralProbability ,SubjectPositiveProbability,ClientId,AccountId,CorrespondingWeight,CorrespondingCompoundScore,EmployeeId)values" +
+    "(@Sentiment, @ConversationId,@Subject,@Sender,@ToList,@CCList, @SentimentScore, @SubjectScore , @Domain, @AccountName,@LocalTimeStamp, @GMTTimeStamp,@Keywords ,@Subjectivity,@Intent,@CreatedAt,@Categorization,@SubjectSubjectivity,@ExplicitContent,@TextAbout, @EmailBody,@Classification,@PositiveProbability,@NegativeProbability,@NeutralProbability,@SubjectNegativeProbability,@SubjectNeutralProbability,@SubjectPositiveProbability,@ClientId,@AccountId,@Cw,@Cscw,@EmployeeId)";
+  const pool = await poolPromise;
+  const result = await pool
+    .request()
+    .input("Sentiment", Sentiment)
+    .input("ConversationId", ConversationId)
+    .input("Subject", Subject)
+    .input("Sender", Sender)
+    .input("ToList", ToList)
+    .input("CCList", CCList)
+    .input("SentimentScore", SentimentScore)
+    .input("SubjectScore", SubjectScore)
+    .input("Domain", Domain)
+    .input("AccountName", AccountName)
+    .input("LocalTimeStamp", LocalTimeStamp)
+    .input("GMTTimeStamp", GMTTimeStamp)
+    .input("Keywords", Keywords)
+    .input("Subjectivity", Subjectivity)
+    .input("Intent", Intent)
+    .input("CreatedAt", new Date())
+    .input("Categorization", Categorization)
+    .input("SubjectSubjectivity", SubjectSubjectivity)
+    .input("ExplicitContent", ExplicitContent)
+    .input("TextAbout", TextAbout)
+    .input("EmailBody", EmailBody)
+    .input("Classification", Classification)
+    .input("PositiveProbability", PositiveProbBody)
+    .input("NegativeProbability", NegativeProbBody)
+    .input("NeutralProbability", NeutralProbBody)
+    .input("SubjectNegativeProbability", NegativeProbSubject)
+    .input("SubjectNeutralProbability", NeutralProbSubject)
+    .input("SubjectPositiveProbability", PositiveProbSubject)
+    .input("ClientId",ClientId)
+    // .input("ProjectId",ProjectId)
+    .input("AccountId",AccountId)
+    .input("Cw",CS)
+    .input("Cscw",CSCW)
+    .input("EmployeeId",EmployeeId)
+    .query(query);
+  res.status(201).send({
+    'message': 'Success'
+  });
+});
 
 router.post("/exchangeData", async (req, res) => {
   // const { error } = validate(req.body);
