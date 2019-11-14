@@ -431,13 +431,15 @@ router.post("/exchangeDataLite", async (req, res) => {
   const Sentiment = req.body.Sentiment;
   const TextAbout = req.body.TextAbout;
   const ExplicitContent = req.body.IsExplicit;
+  const ExplicitWords = req.body.ExplicitWords;
+  
   const SubjectSubjectivity = undefined;
   const Categorization = req.body.Category;
   const Intent = req.body.Intent;
 
   var query =
-    "Insert into dbo.EmailSentimentDataLite(Sentiment, ConversationId, Subject, Sender, ToList, CCList, SentimentScore,  SubjectScore, Domain, AccountName,LocalTimeStamp, GMTTimeStamp, Keywords,Subjectivity, Intent, CreatedAt, Categorization ,SubjectSubjectivity,ExplicitContent, TextAbout , EmailBody,Classification,PositiveProbability,NegativeProbability,NeutralProbability,SubjectNegativeProbability,SubjectNeutralProbability ,SubjectPositiveProbability,ClientId,AccountId,CorrespondingWeight,CorrespondingCompoundScore,EmployeeId)values" +
-    "(@Sentiment, @ConversationId,@Subject,@Sender,@ToList,@CCList, @SentimentScore, @SubjectScore , @Domain, @AccountName,@LocalTimeStamp, @GMTTimeStamp,@Keywords ,@Subjectivity,@Intent,@CreatedAt,@Categorization,@SubjectSubjectivity,@ExplicitContent,@TextAbout, @EmailBody,@Classification,@PositiveProbability,@NegativeProbability,@NeutralProbability,@SubjectNegativeProbability,@SubjectNeutralProbability,@SubjectPositiveProbability,@ClientId,@AccountId,@Cw,@Cscw,@EmployeeId)";
+    "Insert into dbo.EmailSentimentDataLite(Sentiment, ConversationId, Subject, Sender, ToList, CCList, SentimentScore,  SubjectScore, Domain, AccountName,LocalTimeStamp, GMTTimeStamp, Keywords,Subjectivity, Intent, CreatedAt, Categorization ,SubjectSubjectivity,ExplicitContent, TextAbout , EmailBody,Classification,PositiveProbability,NegativeProbability,NeutralProbability,SubjectNegativeProbability,SubjectNeutralProbability ,SubjectPositiveProbability,ClientId,AccountId,CorrespondingWeight,CorrespondingCompoundScore,EmployeeId,ExplicitWords)values" +
+    "(@Sentiment, @ConversationId,@Subject,@Sender,@ToList,@CCList, @SentimentScore, @SubjectScore , @Domain, @AccountName,@LocalTimeStamp, @GMTTimeStamp,@Keywords ,@Subjectivity,@Intent,@CreatedAt,@Categorization,@SubjectSubjectivity,@ExplicitContent,@TextAbout, @EmailBody,@Classification,@PositiveProbability,@NegativeProbability,@NeutralProbability,@SubjectNegativeProbability,@SubjectNeutralProbability,@SubjectPositiveProbability,@ClientId,@AccountId,@Cw,@Cscw,@EmployeeId,@ExplicitWords)";
   const pool = await poolPromise;
   const result = await pool
     .request()
@@ -475,6 +477,7 @@ router.post("/exchangeDataLite", async (req, res) => {
     .input("Cw",CS)
     .input("Cscw",CSCW)
     .input("EmployeeId",EmployeeId)
+    .input("ExplicitWords",ExplicitWords)
     .query(query);
   res.status(201).send({
     'message': 'Success'
