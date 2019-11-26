@@ -273,8 +273,9 @@ router.get("/ExchangeServerDetails", async (req, res) => {
 });
 
 router.get("/emailList", async (req, res) => {
-  var query = " select [Id],[Email],[LastSync] from [dbo].[Employee] WHERE [AllowMonitoring]=1 AND UserId= " + req.query.UserId;
+  var query = "select * from [dbo].[Employee] WHERE [AllowMonitoring]=1 AND UserId= " + req.query.UserId;
   const pool = await poolPromise;
+  console.log(query);
   const result = await pool.request().query(query);
   res.send(result.recordset);
 });
@@ -298,6 +299,16 @@ router.get("/emaildate", async (req, res) => {
 router.put("/emailsyncdate/", async (req, res) => {
   console.log(req.body);
   var query = "UPDATE [dbo].[Employee] SET [LastSync] ='"+req.body.lastSyncDate+"' WHERE [Email]='"+req.body.employeeEmail+"'";
+  console.log(query);
+
+  const pool = await poolPromise;
+  const result = await pool.request()
+    .query(query);
+  res.send(result.recordset);
+})
+router.put("/emailsentsyncdate/", async (req, res) => {
+  console.log(req.body);
+  var query = "UPDATE [dbo].[Employee] SET [SentLastSync] ='"+req.body.lastSyncDate+"' WHERE [Email]='"+req.body.employeeEmail+"'";
   console.log(query);
 
   const pool = await poolPromise;
