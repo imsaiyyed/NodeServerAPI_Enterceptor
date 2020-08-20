@@ -16,7 +16,7 @@
   "dependencies": {
     "axios": "^0.18.1",
     "azure-storage": "^2.10.2",
-    "bcrypt": "^3.0.6",
+    "bcrypt": "^5.0.0",
     "config": "^1.31.0",
     "cors": "^2.8.5",
     "cryptr": "^4.0.0",
